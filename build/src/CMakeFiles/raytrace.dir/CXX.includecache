@@ -1,0 +1,162 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/lodePNG/lodepng.h
+string.h
+-
+vector
+-
+string
+-
+lodepng.h
+../lib/lodePNG/lodepng.h
+iostream
+-
+lodepng.h
+../lib/lodePNG/lodepng.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Camera.h
+vec3.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Image.h
+vec3.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+vector
+-
+assert.h
+-
+fstream
+-
+lodepng.h
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Light.h
+vec3.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Material.h
+vec3.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+Image.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Image.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Mesh.cpp
+Mesh.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Mesh.h
+fstream
+-
+string
+-
+cstring
+-
+sstream
+-
+map
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Mesh.h
+Object.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Object.h
+Image.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Image.h
+vector
+-
+float.h
+-
+string
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Object.h
+Ray.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Ray.h
+vec3.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+Material.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Material.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Plane.cpp
+Plane.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Plane.h
+float.h
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Plane.h
+Object.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Object.h
+vec3.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Ray.h
+vec3.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Sphere.cpp
+Sphere.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Sphere.h
+float.h
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Sphere.h
+Object.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Object.h
+vec3.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/StopWatch.h
+windows.h
+-
+sys/time.h
+-
+iostream
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/raytrace.cpp
+StopWatch.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/StopWatch.h
+Sphere.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Sphere.h
+Plane.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Plane.h
+Mesh.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Mesh.h
+Light.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Light.h
+Ray.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Ray.h
+Material.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Material.h
+Image.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Image.h
+Camera.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Camera.h
+lodepng.h
+-
+vector
+-
+iostream
+-
+fstream
+-
+float.h
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.cpp
+vec3.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+iostream
+-
+assert.h
+-
+math.h
+-
+algorithm
+-
+

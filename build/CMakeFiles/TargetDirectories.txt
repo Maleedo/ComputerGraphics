@@ -1,0 +1,10 @@
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/CMakeFiles/rebuild_cache.dir
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/CMakeFiles/edit_cache.dir
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/src/CMakeFiles/rebuild_cache.dir
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/src/CMakeFiles/raytrace.dir
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/src/CMakeFiles/edit_cache.dir
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/lib/CMakeFiles/rebuild_cache.dir
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/lib/CMakeFiles/edit_cache.dir
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/lib/lodePNG/CMakeFiles/rebuild_cache.dir
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/lib/lodePNG/CMakeFiles/lodePNG.dir
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/lib/lodePNG/CMakeFiles/edit_cache.dir
