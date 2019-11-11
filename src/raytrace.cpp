@@ -352,13 +352,14 @@ vec3 trace(const Ray &_ray, int _depth) {
    /* Ray _refracted_ray;
     _refracted_ray.direction = mirror(_ray.direction, normal);
     _refracted_ray.origin = point;
-   */
+*/
 
     // Recursive Ray Tracing
 
     if(material.mirror > 0){
     	color += trace(_reflected_ray, _depth)*material.mirror;
     }
+
     /** \todo
      * Compute reflections by recursive ray tracing:
      * - check whether `object` is reflective by checking its `material.mirror`

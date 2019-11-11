@@ -85,6 +85,8 @@ Plane.h
 /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Plane.h
 float.h
 -
+cmath
+-
 
 /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Plane.h
 Object.h
