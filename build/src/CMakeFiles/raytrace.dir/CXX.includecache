@@ -59,6 +59,10 @@ sstream
 -
 map
 -
+algorithm
+-
+iterator
+-
 
 /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Mesh.h
 Object.h
@@ -84,8 +88,6 @@ Material.h
 Plane.h
 /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Plane.h
 float.h
--
-cmath
 -
 
 /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Plane.h

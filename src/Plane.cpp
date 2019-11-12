@@ -13,7 +13,7 @@
 
 #include "Plane.h"
 #include <float.h>
-#include <cmath>
+
 
 
 //== CLASS DEFINITION =========================================================

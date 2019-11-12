@@ -16,6 +16,8 @@
 #include <cstring>
 #include <sstream>
 #include <map>
+#include <algorithm>
+#include <iterator>
 
 //== IMPLEMENTATION ===========================================================
 
@@ -409,6 +411,10 @@ bool Mesh::intersect(const Ray& _ray,
 
 //-----------------------------------------------------------------------------
 
+void replace_column(const int column_number, const vec3 _iter_column,const double _coefficient_matrix[3][3], double (&_divisor_matrix)[3][3]);
+double determinant(const double matrix[][3]);
+double cramer(double &_intersection_t, double &_beta, double &_gamma, const double _coefficient_matrix[3][3], const vec3 _iter_column);
+
 
 bool
 Mesh::
@@ -436,14 +442,42 @@ intersect_triangle(const Triangle&  _triangle,
     * Refer to [Cramer's Rule](https://en.wikipedia.org/wiki/Cramer%27s_rule) to easily solve it.
      */
 
-
-
-    const vec3& p0 = vertices_[_triangle.i0].position;
+    const vec3& p0 = vertices_[_triangle.i0].position;      // Point (vertex) of triangle as vector
     const vec3& p1 = vertices_[_triangle.i1].position;
     const vec3& p2 = vertices_[_triangle.i2].position;
 
+    /*  Using explicit representation of a triangle with barycentric coordinates to determine any point on the triangle.
+        Creating linear system out of vector coordinates to solve for t, beta and gamma with alpha = 1-beta-gamma.
+    */
 
+    //columns of coefficient matrix
+    vec3 first_column  = -_ray.direction;
+    vec3 second_column = p1-p0;
+    vec3 third_column  = p2-p0;
 
+    //coefficient matrix
+    double coefficient_matrix[3][3] = {
+    {first_column[0], second_column[0], third_column[0]},
+    {first_column[1], second_column[1], third_column[1]},
+    {first_column[2], second_column[2], third_column[2]}
+    };
+
+    //"right" side of linear system - constant number without variables
+    vec3 iter_column = _ray.origin - p0;
+
+    //barycentric coordinates
+    double beta;
+    double gamma;
+    double alpha = cramer(_intersection_t, beta, gamma, coefficient_matrix, iter_column);
+
+    //if barycentric coordinates > 0, then point lies within triangle
+    bool inside_triangle = alpha > 0 && beta > 0 && gamma > 0;
+
+    //computed intersection point
+    _intersection_point = _ray(_intersection_t);
+
+    //intersection normal
+    _intersection_normal = _triangle.normal;
 
     /** \todo
     * Support textured triangles:
@@ -457,8 +491,57 @@ intersect_triangle(const Triangle&  _triangle,
     * (`material.shadowable` is already set to false for the sky mesh and true for all other meshes, so you don't have to set it by yourself)
      */
 
+    //avoid shadow acne
+    if(distance(_ray.origin, _ray(_intersection_t)) > 0.00001 && inside_triangle){
+    return (_intersection_t >= 0);
+    } else {
+    return false;
+    }
 
-    return true;
+
+}
+
+//computes determinant of given matrix
+
+double determinant(const double matrix[][3]){
+    double _determinant = matrix[0][0] * matrix[1][1] * matrix[2][2]
+                    + matrix[0][1] * matrix[1][2] * matrix[2][0]
+                    + matrix[0][2] * matrix[1][0] * matrix[2][1]
+                    - matrix[0][2] * matrix[1][1] * matrix[2][0]
+                    - matrix[0][0] * matrix[1][2] * matrix[2][1]
+                    - matrix[0][1] * matrix[1][0] * matrix[2][2];
+
+    return _determinant;
+}
+
+//uses cramer's rule to solve linear system.
+
+double cramer(double &_intersection_t, double &_beta, double &_gamma, const double _coefficient_matrix[3][3], const vec3 _iter_column){
+
+    double dividend = determinant(_coefficient_matrix);
+    double divisor_t[3][3]; replace_column(0, _iter_column, _coefficient_matrix, divisor_t);
+    double divisor_beta[3][3]; replace_column(1, _iter_column, _coefficient_matrix, divisor_beta);
+    double divisor_gamma[3][3]; replace_column(2, _iter_column, _coefficient_matrix, divisor_gamma);
+
+    _intersection_t = determinant(divisor_t)/dividend;
+    _beta = determinant(divisor_beta)/dividend;
+    _gamma = determinant(divisor_gamma)/dividend;
+
+    return (1-_beta-_gamma);s
+}
+
+//creates matrices with replaced columns for cramer's rule equation.
+
+void replace_column(const int column_number, const vec3 _iter_column,const double _coefficient_matrix[3][3], double (&_divisor_matrix)[3][3]){
+
+    for(int i = 0; i<3; i++){
+        _divisor_matrix[i][column_number] = _iter_column[i];
+        for(int j = 0; j<3; j++){
+            if(j != column_number){
+            _divisor_matrix[i][j] = _coefficient_matrix[i][j];
+            }
+        }
+    }
 }
 
 
