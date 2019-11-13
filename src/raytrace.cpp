@@ -420,15 +420,19 @@ vec3 lighting(const vec3 &_point, const vec3 &_normal, const vec3 &_view, const 
 		Material material;
 		vec3 point;
    		vec3 normal;
-    		double t;
-
+    	double t;
+    
 		if(_angle > 0 && !intersect_scene(_light_ray, material, point, normal, t ) ){
+			double distance_to_point = norm(_light_ray.origin - point);
+			double distance_to_light = norm(_light_ray.origin - _light.position);
+			if(distance_to_point > distance_to_light){
 			//Compute diffuse Light
 			vec3 _diffuse_light  = _light.color * _material.diffuse * _angle;
 			//Comppute specular Light
 			vec3 _specular_light = _light.color * _material.specular * 			  
 					      pow(dot(reflect(normalize(_light_ray.direction), _normal),normalize(_view)),_material.shininess);
 			color += _diffuse_light + _specular_light;
+		} else {continue;}
 		}else{
 			continue;
 		}

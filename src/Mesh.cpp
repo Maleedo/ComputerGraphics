@@ -303,7 +303,22 @@ void Mesh::compute_normals()
     // initialize vertex normals to zero
     for (Vertex& v: vertices_)
     {
+		vec3 v_pos = v.position;
         v.normal = vec3(0,0,0);
+        for(Triangle& t: triangles_){
+			const vec3& p0 = vertices_[t.i0].position;
+			const vec3& p1 = vertices_[t.i1].position;
+			const vec3& p2 = vertices_[t.i2].position;
+			
+			
+			//bool bol = v_pos == p0;
+			
+			
+			//double teta =
+			}
+        
+        //cos(teta) =dot(vec1, vec2)/norm(vec1)* norm(vec2);
+        
     }
 
     // compute triangle normals
@@ -527,7 +542,7 @@ double cramer(double &_intersection_t, double &_beta, double &_gamma, const doub
     _beta = determinant(divisor_beta)/dividend;
     _gamma = determinant(divisor_gamma)/dividend;
 
-    return (1-_beta-_gamma);s
+    return (1-_beta-_gamma);
 }
 
 //creates matrices with replaced columns for cramer's rule equation.
@@ -543,6 +558,7 @@ void replace_column(const int column_number, const vec3 _iter_column,const doubl
         }
     }
 }
+
 
 
 //=============================================================================

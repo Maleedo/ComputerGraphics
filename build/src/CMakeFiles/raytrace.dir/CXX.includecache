@@ -20,13 +20,13 @@ iostream
 lodepng.h
 ../lib/lodePNG/lodepng.h
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Camera.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Camera.h
 vec3.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/vec3.h
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Image.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Image.h
 vec3.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/vec3.h
 vector
 -
 assert.h
@@ -36,19 +36,19 @@ fstream
 lodepng.h
 -
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Light.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Light.h
 vec3.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/vec3.h
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Material.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Material.h
 vec3.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/vec3.h
 Image.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Image.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Image.h
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Mesh.cpp
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Mesh.cpp
 Mesh.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Mesh.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Mesh.h
 fstream
 -
 string
@@ -64,11 +64,11 @@ algorithm
 iterator
 -
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Mesh.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Mesh.h
 Object.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Object.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Object.h
 Image.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Image.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Image.h
 vector
 -
 float.h
@@ -76,43 +76,43 @@ float.h
 string
 -
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Object.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Object.h
 Ray.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Ray.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Ray.h
 vec3.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/vec3.h
 Material.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Material.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Material.h
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Plane.cpp
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Plane.cpp
 Plane.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Plane.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Plane.h
 float.h
 -
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Plane.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Plane.h
 Object.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Object.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Object.h
 vec3.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/vec3.h
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Ray.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Ray.h
 vec3.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/vec3.h
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Sphere.cpp
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Sphere.cpp
 Sphere.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Sphere.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Sphere.h
 float.h
 -
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Sphere.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Sphere.h
 Object.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Object.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Object.h
 vec3.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/vec3.h
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/StopWatch.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/StopWatch.h
 windows.h
 -
 sys/time.h
@@ -120,25 +120,25 @@ sys/time.h
 iostream
 -
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/raytrace.cpp
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/raytrace.cpp
 StopWatch.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/StopWatch.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/StopWatch.h
 Sphere.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Sphere.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Sphere.h
 Plane.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Plane.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Plane.h
 Mesh.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Mesh.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Mesh.h
 Light.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Light.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Light.h
 Ray.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Ray.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Ray.h
 Material.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Material.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Material.h
 Image.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Image.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Image.h
 Camera.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Camera.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Camera.h
 lodepng.h
 -
 vector
@@ -150,11 +150,11 @@ fstream
 float.h
 -
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.cpp
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/vec3.cpp
 vec3.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/vec3.h
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/vec3.h
 iostream
 -
 assert.h

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/lib/lodePNG/lodepng.cpp
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/lib/lodePNG/lodepng.cpp
 lodepng.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/lib/lodePNG/lodepng.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/lib/lodePNG/lodepng.h
 stdio.h
 -
 stdlib.h
@@ -16,7 +16,7 @@ stdlib.h
 fstream
 -
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/lib/lodePNG/lodepng.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/lib/lodePNG/lodepng.h
 string.h
 -
 vector
@@ -24,9 +24,9 @@ vector
 string
 -
 lodepng.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/lib/lodePNG/lodepng.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/lib/lodePNG/lodepng.h
 iostream
 -
 lodepng.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/lib/lodePNG/lodepng.h
+/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/lib/lodePNG/lodepng.h
 

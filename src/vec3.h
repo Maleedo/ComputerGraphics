@@ -158,6 +158,8 @@ inline const vec3 operator-(const vec3& v0, const vec3& v1)
                 v0[2] - v1[2]);
 }
 
+//inline const vec3 operator==
+
 /// compute the component-wise minimum of vectors \c v0 and \c v1
 inline const vec3 min(const vec3& v0, const vec3& v1)
 {
