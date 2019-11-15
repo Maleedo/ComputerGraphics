@@ -49,6 +49,8 @@ Image.h
 /homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Mesh.cpp
 Mesh.h
 /homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/src/Mesh.h
+math.h
+-
 fstream
 -
 string

@@ -414,17 +414,17 @@ vec3 lighting(const vec3 &_point, const vec3 &_normal, const vec3 &_view, const 
 	for (auto &_light : lights){
 		//Only add diffuse and specular light if angle of light sourse is greater than 0
 		Ray _light_ray;
-		_light_ray.direction = _light.position - _point;
+		_light_ray.direction = normalize(_light.position - _point);
 		_light_ray.origin = _point;
-		double _angle = dot(normalize(_light_ray.direction), _normal);
+		double _angle = angle(_light_ray.direction, _normal);
 		Material material;
 		vec3 point;
    		vec3 normal;
     	double t;
     
 		if(_angle > 0 && !intersect_scene(_light_ray, material, point, normal, t ) ){
-			double distance_to_point = norm(_light_ray.origin - point);
-			double distance_to_light = norm(_light_ray.origin - _light.position);
+			double distance_to_point = norm(_point - point);
+			double distance_to_light = norm(_point - light.position);
 			if(distance_to_point > distance_to_light){
 			//Compute diffuse Light
 			vec3 _diffuse_light  = _light.color * _material.diffuse * _angle;

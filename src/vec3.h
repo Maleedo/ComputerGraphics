@@ -63,7 +63,6 @@ public:
         return data_[_i];
     }
 
-    
     /// multiply this vector by a scalar \c s
     vec3& operator*=(const double s)
     {
@@ -103,6 +102,12 @@ public:
 
 //-----------------------------------------------------------------------------
 
+//cheks if vector \c v and vector \c w are equal
+inline bool operator==(const vec3 v, const vec3 w)
+{	
+	return(v[0] == w[0] && v[1] == w[1] && v[2] == w[2]);
+}    
+	
 
 /// unary minus: turn v into -v
 inline const vec3 operator-(const vec3& v)
@@ -231,6 +236,12 @@ inline const vec3 reflect(const vec3& v, const vec3& n)
 inline const vec3 mirror(const vec3& v, const vec3& n)
 {
     return (2.0 * dot(n,v)) * n - v;
+}
+
+//computes angle between vector \c v and vector \c w
+inline double angle(const vec3 v, const vec3 w)
+{
+	return(acos(dot(v, w)/norm(v) * norm(w)));
 }
 
 /// read the space-separated components of a vector from a stream

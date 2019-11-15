@@ -11,6 +11,7 @@
 //== INCLUDES =================================================================
 
 #include "Mesh.h"
+#include <math.h>
 #include <fstream>
 #include <string>
 #include <cstring>
@@ -299,23 +300,44 @@ void Mesh::compute_normals()
      * - Weigh the normals by their triangles' angles.
      */
 
-
+	
     // initialize vertex normals to zero
     for (Vertex& v: vertices_)
     {
 		vec3 v_pos = v.position;
-        v.normal = vec3(0,0,0);
+        vec3 dividend;
+        double divisor;
         for(Triangle& t: triangles_){
 			const vec3& p0 = vertices_[t.i0].position;
 			const vec3& p1 = vertices_[t.i1].position;
 			const vec3& p2 = vertices_[t.i2].position;
-			
-			
-			//bool bol = v_pos == p0;
-			
-			
-			//double teta =
+
+			if(v_pos == p0){
+				vec3 adjacent_1 = p1 - p0;
+				vec3 adjacent_2 = p2 - p0;
+				double opening_angle = angle(adjacent_1, adjacent_2);
+				dividend += opening_angle * t.normal;
+				divisor++;
 			}
+
+			if(v_pos == p1){
+				vec3 adjacent_1 = p2 - p1;
+				vec3 adjacent_2 = p0 - p1;
+				double opening_angle = angle(adjacent_1, adjacent_2);
+				dividend += opening_angle * t.normal;
+				divisor++;
+			}
+
+			if(v_pos == p2){
+				vec3 adjacent_1 = p0 - p2;
+				vec3 adjacent_2 = p1 - p2;
+				double opening_angle = angle(adjacent_1, adjacent_2);
+				dividend += opening_angle * t.normal;
+				divisor++;
+			}
+		}
+		
+		v.normal = dividend/divisor;
         
         //cos(teta) =dot(vec1, vec2)/norm(vec1)* norm(vec2);
         
