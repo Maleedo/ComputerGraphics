@@ -1,4 +1,4 @@
-# Install script for directory: /homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/lib
+# Install script for directory: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build/lib/lodePNG/cmake_install.cmake")
+  include("/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/lib/lodePNG/cmake_install.cmake")
 
 endif()
 

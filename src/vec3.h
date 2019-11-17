@@ -238,11 +238,6 @@ inline const vec3 mirror(const vec3& v, const vec3& n)
     return (2.0 * dot(n,v)) * n - v;
 }
 
-//computes angle between vector \c v and vector \c w
-inline double angle(const vec3 v, const vec3 w)
-{
-	return(acos(dot(v, w)/norm(v) * norm(w)));
-}
 
 /// read the space-separated components of a vector from a stream
 inline std::istream& operator>>(std::istream& is, vec3& v)

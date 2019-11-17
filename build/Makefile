@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics"
+CMAKE_SOURCE_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build"
+CMAKE_BINARY_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build/CMakeFiles" "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/CMakeFiles" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -109,19 +109,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named doc
-
-# Build rule for target.
-doc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 doc
-.PHONY : doc
-
-# fast build rule for target.
-doc/fast:
-	$(MAKE) -f CMakeFiles/doc.dir/build.make CMakeFiles/doc.dir/build
-.PHONY : doc/fast
 
 #=============================================================================
 # Target rules for targets named raytrace
@@ -156,7 +143,6 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... doc"
 	@echo "... edit_cache"
 	@echo "... raytrace"
 	@echo "... lodePNG"

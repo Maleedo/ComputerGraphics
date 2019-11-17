@@ -323,6 +323,16 @@ void compute_image() {
 
 
 vec3 trace(const Ray &_ray, int _depth) {
+
+    /** \todo
+     * Compute reflections by recursive ray tracing:
+     * - check whether `object` is reflective by checking its `material.mirror`
+     * - check recursion depth
+     * - generate reflected ray, compute its color contribution, and mix it with
+     * the color computed by local Phong lighthing (use `object->material.mirror` as weight)
+     * - check whether your recursive algorithm reflects the ray `max_depth` times
+     */
+
     // stop if recursion depth (=number of reflection) is too large
     if (_depth > max_depth) return vec3(0, 0, 0);
 
@@ -339,36 +349,21 @@ vec3 trace(const Ray &_ray, int _depth) {
 
     // compute local Phong lighting (ambient+diffuse+specular)
 
-    vec3 color = lighting(point, normal, -_ray.direction, material);
+    vec3 color = lighting(point, normal, _ray.direction, material);
 
-    //std::cout << color << std::endl;
-
-    _depth++;
     //Compute reflected Ray
     Ray _reflected_ray;
     _reflected_ray.direction =  reflect(_ray.direction, normal);
     _reflected_ray.origin = point;
-   
-   /* Ray _refracted_ray;
-    _refracted_ray.direction = mirror(_ray.direction, normal);
-    _refracted_ray.origin = point;
-*/
 
     // Recursive Ray Tracing
 
+    _depth++;
+
     if(material.mirror > 0){
-    	color += trace(_reflected_ray, _depth)*material.mirror;
+        vec3 reflected_color = trace(_reflected_ray, _depth)* material.mirror;
+        color += reflected_color;
     }
-
-    /** \todo
-     * Compute reflections by recursive ray tracing:
-     * - check whether `object` is reflective by checking its `material.mirror`
-     * - check recursion depth
-     * - generate reflected ray, compute its color contribution, and mix it with
-     * the color computed by local Phong lighthing (use `object->material.mirror` as weight)
-     * - check whether your recursive algorithm reflects the ray `max_depth` times
-     */
-
 
     return color;
 }
@@ -407,51 +402,64 @@ bool intersect_scene(const Ray& _ray, Material &_intersection_material, vec3& _i
 vec3 lighting(const vec3 &_point, const vec3 &_normal, const vec3 &_view, const Material &_material) {
     vec3 color(0.0, 0.0, 0.0);
 
-	//Compute Ambient Light
+        /** \todo
+        * Compute the Phong lighting:
+        * - start with global ambient contribution
+        * - for each light source (stored in vector `lights`) add diffuse and specular contribution
+        * - only add diffuse and specular light if object is not in shadow
+        *
+        * Hints:
+        * - All object specific material parameters (material's diffuse, specular, shininess) can be found in `_material`.
+        * - The ambient material parameter is globally defined as `ambience`.
+        * - Use the lights' member `color` for both diffuse and specular light intensity.
+        * - Feel free to use the existing vector functions in vec3.h e.g. mirror, reflect, norm, dot, normalize
+        */
+
+	//Compute ambient light
 	vec3 _ambient_light = _material.ambient * ambience;
 	color += _ambient_light;
 
+	//Compute diffuse and specular light contribution of every light source.
+
 	for (auto &_light : lights){
-		//Only add diffuse and specular light if angle of light sourse is greater than 0
+
+	    //Determine light ray
 		Ray _light_ray;
 		_light_ray.direction = normalize(_light.position - _point);
 		_light_ray.origin = _point;
-		double _angle = angle(_light_ray.direction, _normal);
+
+		//Determine angle between light ray and camera
+		double _angle = dot(_light_ray.direction, _normal);
+
+		//Compute intersection point with light ray
 		Material material;
 		vec3 point;
    		vec3 normal;
     	double t;
-    
-		if(_angle > 0 && !intersect_scene(_light_ray, material, point, normal, t ) ){
-			double distance_to_point = norm(_point - point);
-			double distance_to_light = norm(_point - light.position);
-			if(distance_to_point > distance_to_light){
+    	bool _intersect_scene = intersect_scene(_light_ray, material, point, normal, t);
+
+        //Check if intersected object is between point and light source
+    	double distance_to_intersection_point = norm(_point - point);
+ 		double distance_to_light = norm(_point - _light.position);
+ 		bool obj_in_between = distance_to_intersection_point < distance_to_light;
+
+ 		//Add diffuse and specular light if angle of light source is greater 0 and no object is between
+ 		//point and light source.
+		if(_angle > 0 && (obj_in_between == false || !_intersect_scene) ) {
+
 			//Compute diffuse Light
 			vec3 _diffuse_light  = _light.color * _material.diffuse * _angle;
+
 			//Comppute specular Light
 			vec3 _specular_light = _light.color * _material.specular * 			  
-					      pow(dot(reflect(normalize(_light_ray.direction), _normal),normalize(_view)),_material.shininess);
+					      pow(dot(reflect(_light_ray.direction, _normal),_view),_material.shininess);
+
+		    //Add diffuse and specular light to color
 			color += _diffuse_light + _specular_light;
-		} else {continue;}
-		}else{
+        }else{
 			continue;
 		}
-	}	
-
-    /** \todo
-    * Compute the Phong lighting:
-    * - start with global ambient contribution
-    * - for each light source (stored in vector `lights`) add diffuse and specular contribution
-    * - only add diffuse and specular light if object is not in shadow
-    *
-    * Hints:
-    * - All object specific material parameters (material's diffuse, specular, shininess) can be found in `_material`.
-    * - The ambient material parameter is globally defined as `ambience`.
-    * - Use the lights' member `color` for both diffuse and specular light intensity.
-    * - Feel free to use the existing vector functions in vec3.h e.g. mirror, reflect, norm, dot, normalize
-    */
-
-
+	}
     return color;
 }
 

@@ -301,29 +301,46 @@ void Mesh::compute_normals()
      */
 
 	
-    // initialize vertex normals to zero
+    //Compute vertex normal for every vertex v in the scene
     for (Vertex& v: vertices_)
     {
 		vec3 v_pos = v.position;
-        vec3 dividend;
-        double divisor;
+
+		// Dvidend and divisor for vertex normal equation
+        vec3 dividend;      //Sum over all weighted triangle normals connected to that vertex
+        double divisor;     //Number of triangles connected to that vertex
+
+        //Check every triangle in the scene and compare its vertices to v.
+        //If a match is found, compute opening angle (used as weight) and use triangle normal for vertex normal
+        //computation for v.
         for(Triangle& t: triangles_){
+
+            //Store triangle vertices
 			const vec3& p0 = vertices_[t.i0].position;
 			const vec3& p1 = vertices_[t.i1].position;
 			const vec3& p2 = vertices_[t.i2].position;
 
+            //Check if v is part of triangle
 			if(v_pos == p0){
+
+			    //Compute adjacent vectors of triangle vertix
 				vec3 adjacent_1 = p1 - p0;
 				vec3 adjacent_2 = p2 - p0;
-				double opening_angle = angle(adjacent_1, adjacent_2);
+
+				//Opening angle used as weight
+				double opening_angle = dot(normalize(adjacent_1), normalize(adjacent_2));
+
+				//Add weighted triangle normal to dividend
 				dividend += opening_angle * t.normal;
+
+				//Increase number of triangles connected to v
 				divisor++;
 			}
 
 			if(v_pos == p1){
 				vec3 adjacent_1 = p2 - p1;
 				vec3 adjacent_2 = p0 - p1;
-				double opening_angle = angle(adjacent_1, adjacent_2);
+				double opening_angle = dot(normalize(adjacent_1), normalize(adjacent_2));
 				dividend += opening_angle * t.normal;
 				divisor++;
 			}
@@ -331,16 +348,15 @@ void Mesh::compute_normals()
 			if(v_pos == p2){
 				vec3 adjacent_1 = p0 - p2;
 				vec3 adjacent_2 = p1 - p2;
-				double opening_angle = angle(adjacent_1, adjacent_2);
+				double opening_angle = dot(normalize(adjacent_1), normalize(adjacent_2));
 				dividend += opening_angle * t.normal;
 				divisor++;
 			}
 		}
-		
+
+		//Compute actual vertex normal
 		v.normal = dividend/divisor;
-        
-        //cos(teta) =dot(vec1, vec2)/norm(vec1)* norm(vec2);
-        
+
     }
 
     // compute triangle normals
@@ -447,6 +463,8 @@ bool Mesh::intersect(const Ray& _ray,
 
 
 //-----------------------------------------------------------------------------
+
+//Function declarations of math functions used in cramers rule. Function definitions can be found under Mesh::intersect_triangle.
 
 void replace_column(const int column_number, const vec3 _iter_column,const double _coefficient_matrix[3][3], double (&_divisor_matrix)[3][3]);
 double determinant(const double matrix[][3]);
