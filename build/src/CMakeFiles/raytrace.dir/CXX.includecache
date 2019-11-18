@@ -49,6 +49,8 @@ Image.h
 /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Mesh.cpp
 Mesh.h
 /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Mesh.h
+Plane.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Plane.h
 math.h
 -
 fstream

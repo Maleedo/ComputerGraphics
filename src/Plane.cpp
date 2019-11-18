@@ -49,6 +49,7 @@ intersect(const Ray& _ray,
     _intersection_t = dot(normal, center - _ray.origin)/dot(_ray.direction, normal);
 
     //Avoid shadow acne
+
     if (distance(_ray.origin, _ray(_intersection_t)) > 0.00001)
     {
     	_intersection_point = _ray(_intersection_t);

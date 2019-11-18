@@ -7,6 +7,7 @@ src/CMakeFiles/raytrace.dir/Mesh.cpp.o: ../src/Material.h
 src/CMakeFiles/raytrace.dir/Mesh.cpp.o: ../src/Mesh.cpp
 src/CMakeFiles/raytrace.dir/Mesh.cpp.o: ../src/Mesh.h
 src/CMakeFiles/raytrace.dir/Mesh.cpp.o: ../src/Object.h
+src/CMakeFiles/raytrace.dir/Mesh.cpp.o: ../src/Plane.h
 src/CMakeFiles/raytrace.dir/Mesh.cpp.o: ../src/Ray.h
 src/CMakeFiles/raytrace.dir/Mesh.cpp.o: ../src/vec3.h
 

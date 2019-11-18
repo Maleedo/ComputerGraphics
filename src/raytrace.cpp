@@ -299,7 +299,7 @@ void compute_image() {
 
 
 // uncomment the following line to use multithreading
-// #pragma omp parallel for
+ #pragma omp parallel for
     for (int x=0; x<camera.width; ++x)
     {
         for (int y=0; y<camera.height; ++y)
@@ -444,8 +444,8 @@ vec3 lighting(const vec3 &_point, const vec3 &_normal, const vec3 &_view, const 
  		bool obj_in_between = distance_to_intersection_point < distance_to_light;
 
  		//Add diffuse and specular light if angle of light source is greater 0 and no object is between
- 		//point and light source.
-		if(_angle > 0 && (obj_in_between == false || !_intersect_scene) ) {
+ 		//point and light source and material is not shadowable, to prevent shadows on the sky.
+		if((_angle > 0 && (obj_in_between == false || !_intersect_scene)) || !material.shadowable) {
 
 			//Compute diffuse Light
 			vec3 _diffuse_light  = _light.color * _material.diffuse * _angle;

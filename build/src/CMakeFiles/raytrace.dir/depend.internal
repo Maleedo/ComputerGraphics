@@ -8,6 +8,7 @@ src/CMakeFiles/raytrace.dir/Mesh.cpp.o
  /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Mesh.cpp
  /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Mesh.h
  /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Object.h
+ /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Plane.h
  /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/Ray.h
  /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/src/vec3.h
 src/CMakeFiles/raytrace.dir/Plane.cpp.o

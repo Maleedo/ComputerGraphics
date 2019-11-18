@@ -2,55 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1544bf24-2826-4e61-a4b5-ae6a96051e43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeDoxyfile.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeDoxygenDefaults.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/doc.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/doc.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/doc.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/doc.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Doxyfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/lodePNG/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/lodePNG/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/lodePNG/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/lodePNG/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/mirror.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/mirror.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/o_01_spheres.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/o_02_molecule.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/o_03_molecule2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/o_04_cube.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/o_05_mask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/o_06_mirror.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/o_07_toon_faces.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/o_08_office.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/office.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/mirror.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/molecule.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/raytrace" beforeDir="false" afterPath="$PROJECT_DIR$/build/raytrace" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/spheres.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/spheres.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/spheres.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/raytrace.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/raytrace.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/raytrace.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/raytrace.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/raytrace.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/raytrace.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/raytrace.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/raytrace.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/raytrace.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/raytrace.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/raytrace.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/raytrace.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mesh.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mesh.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Plane.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plane.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/raytrace.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/raytrace.cpp" afterDir="false" />
@@ -70,44 +29,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/raytrace.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-447">
-              <caret line="408" column="74" selection-start-line="408" selection-start-column="68" selection-end-line="408" selection-end-column="74" />
+            <state relative-caret-position="4518">
+              <caret line="410" column="16" selection-start-line="410" selection-start-column="16" selection-end-line="410" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Plane.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Mesh.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1848">
-              <caret line="589" column="85" selection-start-line="589" selection-start-column="85" selection-end-line="589" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ray.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vec3.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="239" selection-start-line="239" selection-end-line="239" />
+            <state relative-caret-position="540">
+              <caret line="567" column="69" lean-forward="true" selection-start-line="567" selection-start-column="69" selection-end-line="567" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -115,8 +47,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="108">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/vec3.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="105" column="22" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -125,13 +66,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>divide</find>
-      <find>math</find>
-      <find>triangle</find>
+      <find>plane</find>
+      <find>Plane</find>
+      <find>DBL_MAX</find>
+      <find>List</find>
+      <find>hasTexture_</find>
       <find>Triangle</find>
-      <find>normal</find>
-      <find>spec</find>
-      <find>shadow</find>
+      <find>u_coord</find>
+      <find>iuv</find>
+      <find>uv</find>
+      <find>texture_</find>
+      <find>Texture</find>
+      <find>vertices</find>
+      <find>vertices_</find>
+      <find>Mesh::vertices</find>
+      <find>u_coor</find>
+      <find>u_coordinates</find>
+      <find>hasTex</find>
+      <find>texture</find>
+      <find>_intersection_diffuse</find>
+      <find>intersect</find>
+      <find>diffuse</find>
+      <find>_intersect</find>
+      <find>intersect_scene</find>
+      <find>draw_mode_</find>
+      <find>triangles_</find>
+      <find>dot</find>
+      <find>compute_normals</find>
+      <find>draw_mode</find>
+      <find>divide</find>
+      <find>==</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,16 +109,17 @@
         <option value="$PROJECT_DIR$/src/Maths.h" />
         <option value="$PROJECT_DIR$/src/Maths.cpp" />
         <option value="$PROJECT_DIR$/src/vec3.h" />
-        <option value="$PROJECT_DIR$/src/raytrace.cpp" />
         <option value="$PROJECT_DIR$/src/Plane.cpp" />
+        <option value="$PROJECT_DIR$/src/Plane.h" />
+        <option value="$PROJECT_DIR$/src/raytrace.cpp" />
         <option value="$PROJECT_DIR$/src/Mesh.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="793" />
+    <option name="x" value="67" />
     <option name="y" value="25" />
-    <option name="width" value="573" />
+    <option name="width" value="650" />
     <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -251,28 +216,40 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16201118" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24980047" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Object.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-478" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Image.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1932" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mesh.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vec3.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sphere.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -289,13 +266,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Maths.h" />
     <entry file="file://$PROJECT_DIR$/src/Maths.cpp" />
-    <entry file="file://$PROJECT_DIR$/src/vec3.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="239" selection-start-line="239" selection-end-line="239" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Ray.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -303,31 +273,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/StopWatch.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
+        <state relative-caret-position="-1333" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/raytrace.cpp">
+    <entry file="file://$PROJECT_DIR$/src/Object.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-447">
-          <caret line="408" column="74" selection-start-line="408" selection-start-column="68" selection-end-line="408" selection-end-column="74" />
+        <state relative-caret-position="45">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Plane.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+        <state relative-caret-position="377">
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Plane.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Camera.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Image.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="119" column="75" selection-start-line="119" selection-start-column="75" selection-end-line="119" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vec3.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mesh.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="124" column="36" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Material.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/raytrace.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4518">
+          <caret line="410" column="16" selection-start-line="410" selection-start-column="16" selection-end-line="410" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mesh.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="589" column="85" selection-start-line="589" selection-start-column="85" selection-end-line="589" selection-end-column="85" />
+        <state relative-caret-position="540">
+          <caret line="567" column="69" lean-forward="true" selection-start-line="567" selection-start-column="69" selection-end-line="567" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vec3.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="105" column="22" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="22" />
         </state>
       </provider>
     </entry>

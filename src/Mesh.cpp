@@ -11,6 +11,7 @@
 //== INCLUDES =================================================================
 
 #include "Mesh.h"
+#include "Plane.h"
 #include <math.h>
 #include <fstream>
 #include <string>
@@ -300,17 +301,26 @@ void Mesh::compute_normals()
      * - Weigh the normals by their triangles' angles.
      */
 
-	
-    //Compute vertex normal for every vertex v in the scene
+
+    // compute triangle normals
+    for (Triangle& t: triangles_)
+    {
+        const vec3& p0 = vertices_[t.i0].position;
+        const vec3& p1 = vertices_[t.i1].position;
+        const vec3& p2 = vertices_[t.i2].position;
+        t.normal = normalize(cross(p1-p0, p2-p0));
+    }
+
+    //Compute vertex normal for every vertex v in the mesh
     for (Vertex& v: vertices_)
     {
 		vec3 v_pos = v.position;
 
-		// Dvidend and divisor for vertex normal equation
-        vec3 dividend;      //Sum over all weighted triangle normals connected to that vertex
-        double divisor;     //Number of triangles connected to that vertex
+		// Sum of weighted triangle normals for vertex normal equation
+        vec3 weighted_vector_sum; //Sum over all weighted triangle normals connected to that vertex
+        double triangle_number = 0;
 
-        //Check every triangle in the scene and compare its vertices to v.
+        //Check every triangle in the mesh and compare its vertices to v.
         //If a match is found, compute opening angle (used as weight) and use triangle normal for vertex normal
         //computation for v.
         for(Triangle& t: triangles_){
@@ -330,44 +340,33 @@ void Mesh::compute_normals()
 				//Opening angle used as weight
 				double opening_angle = dot(normalize(adjacent_1), normalize(adjacent_2));
 
-				//Add weighted triangle normal to dividend
-				dividend += opening_angle * t.normal;
-
-				//Increase number of triangles connected to v
-				divisor++;
+				//Add weighted triangle normal to vector_sum
+				weighted_vector_sum += opening_angle * t.normal;
+				triangle_number++;
 			}
 
 			if(v_pos == p1){
 				vec3 adjacent_1 = p2 - p1;
 				vec3 adjacent_2 = p0 - p1;
 				double opening_angle = dot(normalize(adjacent_1), normalize(adjacent_2));
-				dividend += opening_angle * t.normal;
-				divisor++;
+				weighted_vector_sum += opening_angle * t.normal;
+				triangle_number++;
 			}
 
 			if(v_pos == p2){
 				vec3 adjacent_1 = p0 - p2;
 				vec3 adjacent_2 = p1 - p2;
 				double opening_angle = dot(normalize(adjacent_1), normalize(adjacent_2));
-				dividend += opening_angle * t.normal;
-				divisor++;
+				weighted_vector_sum += opening_angle * t.normal;
+				triangle_number++;
 			}
+
 		}
 
 		//Compute actual vertex normal
-		v.normal = dividend/divisor;
+		v.normal = normalize(weighted_vector_sum/triangle_number);
 
     }
-
-    // compute triangle normals
-    for (Triangle& t: triangles_)
-    {
-        const vec3& p0 = vertices_[t.i0].position;
-        const vec3& p1 = vertices_[t.i1].position;
-        const vec3& p2 = vertices_[t.i2].position;
-        t.normal = normalize(cross(p1-p0, p2-p0));
-    }
-
 }
 
 
@@ -415,7 +414,48 @@ bool Mesh::intersect_bounding_box(const Ray& _ray) const
     */
 
 
-    return true;
+    //Using algorithm for ABBs from cg-script
+    double t_min = 0;
+    double t_max = DBL_MAX;
+
+    bool intersect_Min_Plane;
+    bool intersect_Max_Plane;
+
+    //Creating planes of bounding box
+    for(int i = 0; i<3; i++){
+        vec3 axis_normal = (0,0,0);
+        axis_normal[i] += 1;
+
+        Plane Min_Plane = Plane(bb_min_, axis_normal);
+        Plane Max_Plane = Plane(bb_max_, axis_normal);
+
+        vec3 intersection_point;
+        vec3 intersection_normal;
+        vec3 intersection_diffuse;
+        double intersection_t_min;
+        double intersection_t_max;
+
+        //Intersecting ray with 2 parallel planes
+        intersect_Min_Plane = Min_Plane.intersect(_ray, intersection_point, intersection_normal, intersection_diffuse, intersection_t_min);
+        intersect_Max_Plane = Max_Plane.intersect(_ray, intersection_point, intersection_normal, intersection_diffuse, intersection_t_max);
+
+        //Ensuring that intersection_t_min < intersection_t_max and updating t_min and t_max
+        if(intersection_t_min < intersection_t_max){
+                t_min = std::max(t_min, intersection_t_min);
+                t_max = std::min(t_max, intersection_t_max);
+        }else {
+                t_min = std::max(t_min, intersection_t_max);
+                t_max = std::min(t_max, intersection_t_min);
+
+        }
+
+    //If t_min < t_max after intersecting every plane, the ray intersects with the bounding box
+    }
+    if(t_min < t_max){
+        return true;
+    }else {
+        return false;
+    }
 }
 
 
@@ -526,13 +566,30 @@ intersect_triangle(const Triangle&  _triangle,
     double alpha = cramer(_intersection_t, beta, gamma, coefficient_matrix, iter_column);
 
     //if barycentric coordinates > 0, then point lies within triangle
-    bool inside_triangle = alpha > 0 && beta > 0 && gamma > 0;
+    if(!(alpha > 0 && beta > 0 && gamma > 0)){
+        return false;
+    }
 
     //computed intersection point
     _intersection_point = _ray(_intersection_t);
 
-    //intersection normal
-    _intersection_normal = _triangle.normal;
+
+    //Use flat or phong shading
+    if(draw_mode_ == FLAT ){
+        _intersection_normal = _triangle.normal;
+    }
+
+    if(draw_mode_ == PHONG)
+    {
+        //Get interpolated vertices normals
+        vec3 vertex_A_normal = vertices_[_triangle.i0].normal;
+        vec3 vertex_B_normal = vertices_[_triangle.i1].normal;
+        vec3 vertex_C_normal = vertices_[_triangle.i2].normal;
+
+        // Sum of interpolated normal vectors of triangle vertices (alpha, beta, gamma used as weights)
+        vec3 sum_of_inormals = alpha * vertex_A_normal + beta * vertex_B_normal + gamma * vertex_C_normal;
+        _intersection_normal = normalize(sum_of_inormals);
+    }
 
     /** \todo
     * Support textured triangles:
@@ -546,8 +603,38 @@ intersect_triangle(const Triangle&  _triangle,
     * (`material.shadowable` is already set to false for the sky mesh and true for all other meshes, so you don't have to set it by yourself)
      */
 
+    if(hasTexture_){
+
+        //Get 2d coordinates of triangle vertices
+        std::vector<double> triangle_A;
+        std::vector<double> triangle_B;
+        std::vector<double> triangle_C;
+
+        triangle_A[0] = u_coordinates_[_triangle.iuv0];
+        triangle_A[1] = v_coordinates_[_triangle.iuv0];
+
+        triangle_B[0] = u_coordinates_[_triangle.iuv1];
+        triangle_B[1] = v_coordinates_[_triangle.iuv1];
+
+        triangle_C[0] = u_coordinates_[_triangle.iuv2];
+        triangle_C[1] = v_coordinates_[_triangle.iuv2];
+
+        //Convert intersection point from 3d to 2d, by interpolating 2d coordinates with barycentric coordinates.
+        std::vector<double> intersection_point_uv;
+
+        intersection_point_uv[0] = alpha * triangle_A[0] + beta * triangle_B[0] + gamma * triangle_C[0];
+        intersection_point_uv[1] = alpha * triangle_A[1] + beta * triangle_B[1] + gamma * triangle_C[1];
+
+        //Converting relative pixel value to actual pixel of image
+        (int)round(intersection_point_uv[0] * (texture_.width() - 1));
+        (int)round(intersection_point_uv[1] * (texture_.height() -1));
+
+        //Storing texture color of intersection point in _intersection_diffuse
+        _intersection_diffuse = (intersection_point_uv[0], intersection_point_uv[1]);
+    }
+
     //avoid shadow acne
-    if(distance(_ray.origin, _ray(_intersection_t)) > 0.00001 && inside_triangle){
+    if(distance(_ray.origin, _ray(_intersection_t)) > 0.00001){
     return (_intersection_t >= 0);
     } else {
     return false;

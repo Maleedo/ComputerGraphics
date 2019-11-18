@@ -102,7 +102,7 @@ public:
 
 //-----------------------------------------------------------------------------
 
-//cheks if vector \c v and vector \c w are equal
+//checks if vector \c v and vector \c w are equal
 inline bool operator==(const vec3 v, const vec3 w)
 {	
 	return(v[0] == w[0] && v[1] == w[1] && v[2] == w[2]);
@@ -163,7 +163,6 @@ inline const vec3 operator-(const vec3& v0, const vec3& v1)
                 v0[2] - v1[2]);
 }
 
-//inline const vec3 operator==
 
 /// compute the component-wise minimum of vectors \c v0 and \c v1
 inline const vec3 min(const vec3& v0, const vec3& v1)
