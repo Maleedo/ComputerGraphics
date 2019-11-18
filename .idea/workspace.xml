@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1544bf24-2826-4e61-a4b5-ae6a96051e43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/build/cube.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/mirror.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/molecule.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/raytrace" beforeDir="false" afterPath="$PROJECT_DIR$/build/raytrace" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/spheres.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/raytrace.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/raytrace.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/raytrace.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/raytrace.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/raytrace.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/raytrace.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mesh.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mesh.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plane.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plane.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/raytrace.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/raytrace.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vec3.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/vec3.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,17 +18,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/raytrace.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4518">
+            <state relative-caret-position="1098">
               <caret line="410" column="16" selection-start-line="410" selection-start-column="16" selection-end-line="410" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Mesh.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="567" column="69" lean-forward="true" selection-start-line="567" selection-start-column="69" selection-end-line="567" selection-end-column="69" />
+            <state relative-caret-position="450">
+              <caret line="591" column="59" selection-start-line="591" selection-start-column="59" selection-end-line="591" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -53,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vec3.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="310">
@@ -339,24 +328,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/vec3.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="105" column="22" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/raytrace.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4518">
+        <state relative-caret-position="1098">
           <caret line="410" column="16" selection-start-line="410" selection-start-column="16" selection-end-line="410" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mesh.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="567" column="69" lean-forward="true" selection-start-line="567" selection-start-column="69" selection-end-line="567" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vec3.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="105" column="22" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="22" />
+        <state relative-caret-position="450">
+          <caret line="591" column="59" selection-start-line="591" selection-start-column="59" selection-end-line="591" selection-end-column="59" />
         </state>
       </provider>
     </entry>

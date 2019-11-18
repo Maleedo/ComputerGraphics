@@ -588,6 +588,8 @@ intersect_triangle(const Triangle&  _triangle,
 
         // Sum of interpolated normal vectors of triangle vertices (alpha, beta, gamma used as weights)
         vec3 sum_of_inormals = alpha * vertex_A_normal + beta * vertex_B_normal + gamma * vertex_C_normal;
+
+        //Store interpolated normal in _intersection_normal
         _intersection_normal = normalize(sum_of_inormals);
     }
 
