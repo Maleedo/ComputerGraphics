@@ -360,12 +360,13 @@ vec3 trace(const Ray &_ray, int _depth) {
 
     _depth++;
 
-    if(material.mirror > 0){
-        vec3 reflected_color = trace(_reflected_ray, _depth)* material.mirror;
+   if (material.mirror > 0 && _depth < max_depth){
+        vec3 reflected_color = trace(_reflected_ray, _depth) * material.mirror;
+        color = color * (1 - material.mirror);
         color += reflected_color;
     }
 
-    return color;
+    return (color);
 }
 
 
@@ -401,7 +402,6 @@ bool intersect_scene(const Ray& _ray, Material &_intersection_material, vec3& _i
 
 vec3 lighting(const vec3 &_point, const vec3 &_normal, const vec3 &_view, const Material &_material) {
     vec3 color(0.0, 0.0, 0.0);
-
         /** \todo
         * Compute the Phong lighting:
         * - start with global ambient contribution
@@ -441,11 +441,11 @@ vec3 lighting(const vec3 &_point, const vec3 &_normal, const vec3 &_view, const 
         //Check if intersected object is between point and light source
     	double distance_to_intersection_point = norm(_point - point);
  		double distance_to_light = norm(_point - _light.position);
- 		bool obj_in_between = distance_to_intersection_point < distance_to_light;
+ 		bool obj_in_between = distance_to_intersection_point > 1e-5 && distance_to_intersection_point < distance_to_light;
 
  		//Add diffuse and specular light if angle of light source is greater 0 and no object is between
  		//point and light source and material is not shadowable, to prevent shadows on the sky.
-		if((_angle > 0 && (obj_in_between == false || !_intersect_scene)) || !material.shadowable) {
+		if((_angle > 0 && (obj_in_between == false || !_intersect_scene))) {
 
 			//Compute diffuse Light
 			vec3 _diffuse_light  = _light.color * _material.diffuse * _angle;

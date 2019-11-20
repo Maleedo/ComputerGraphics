@@ -317,8 +317,7 @@ void Mesh::compute_normals()
 		vec3 v_pos = v.position;
 
 		// Sum of weighted triangle normals for vertex normal equation
-        vec3 weighted_vector_sum; //Sum over all weighted triangle normals connected to that vertex
-        double triangle_number = 0;
+        vec3 weighted_vector_sum = {0,0,0}; //Sum over all weighted triangle normals connected to that vertex
 
         //Check every triangle in the mesh and compare its vertices to v.
         //If a match is found, compute opening angle (used as weight) and use triangle normal for vertex normal
@@ -338,33 +337,30 @@ void Mesh::compute_normals()
 				vec3 adjacent_2 = p2 - p0;
 
 				//Opening angle used as weight
-				double opening_angle = dot(normalize(adjacent_1), normalize(adjacent_2));
+				double opening_angle = acos(dot(normalize(adjacent_1), normalize(adjacent_2))) ;
 
 				//Add weighted triangle normal to vector_sum
 				weighted_vector_sum += opening_angle * t.normal;
-				triangle_number++;
 			}
 
 			if(v_pos == p1){
 				vec3 adjacent_1 = p2 - p1;
 				vec3 adjacent_2 = p0 - p1;
-				double opening_angle = dot(normalize(adjacent_1), normalize(adjacent_2));
+				double opening_angle = acos(dot(normalize(adjacent_1), normalize(adjacent_2)));
 				weighted_vector_sum += opening_angle * t.normal;
-				triangle_number++;
 			}
 
 			if(v_pos == p2){
 				vec3 adjacent_1 = p0 - p2;
 				vec3 adjacent_2 = p1 - p2;
-				double opening_angle = dot(normalize(adjacent_1), normalize(adjacent_2));
+				double opening_angle = acos(dot(normalize(adjacent_1), normalize(adjacent_2)));
 				weighted_vector_sum += opening_angle * t.normal;
-				triangle_number++;
 			}
 
 		}
 
 		//Compute actual vertex normal
-		v.normal = normalize(weighted_vector_sum/triangle_number);
+		v.normal = normalize(weighted_vector_sum);
 
     }
 }
@@ -520,7 +516,6 @@ intersect_triangle(const Triangle&  _triangle,
                    vec3&            _intersection_diffuse,
                    double&          _intersection_t) const
 {
-
     _intersection_diffuse = material.diffuse;
 
     /** \todo
@@ -608,9 +603,9 @@ intersect_triangle(const Triangle&  _triangle,
     if(hasTexture_){
 
         //Get 2d coordinates of triangle vertices
-        std::vector<double> triangle_A;
-        std::vector<double> triangle_B;
-        std::vector<double> triangle_C;
+        std::vector<double> triangle_A; triangle_A.resize(2);
+        std::vector<double> triangle_B; triangle_B.resize(2);
+        std::vector<double> triangle_C; triangle_C.resize(2);
 
         triangle_A[0] = u_coordinates_[_triangle.iuv0];
         triangle_A[1] = v_coordinates_[_triangle.iuv0];
@@ -622,21 +617,21 @@ intersect_triangle(const Triangle&  _triangle,
         triangle_C[1] = v_coordinates_[_triangle.iuv2];
 
         //Convert intersection point from 3d to 2d, by interpolating 2d coordinates with barycentric coordinates.
-        std::vector<double> intersection_point_uv;
+        std::vector<double> intersection_point_uv; intersection_point_uv.resize(2);
 
         intersection_point_uv[0] = alpha * triangle_A[0] + beta * triangle_B[0] + gamma * triangle_C[0];
         intersection_point_uv[1] = alpha * triangle_A[1] + beta * triangle_B[1] + gamma * triangle_C[1];
 
         //Converting relative pixel value to actual pixel of image
-        (int)round(intersection_point_uv[0] * (texture_.width() - 1));
-        (int)round(intersection_point_uv[1] * (texture_.height() -1));
+        intersection_point_uv[0] = (int)round(intersection_point_uv[0] * (texture_.width() - 1));
+        intersection_point_uv[1] = (int)round(intersection_point_uv[1] * (texture_.height() -1));
 
         //Storing texture color of intersection point in _intersection_diffuse
-        _intersection_diffuse = (intersection_point_uv[0], intersection_point_uv[1]);
+        _intersection_diffuse = texture_(intersection_point_uv[0], intersection_point_uv[1]);
     }
 
     //avoid shadow acne
-    if(distance(_ray.origin, _ray(_intersection_t)) > 0.00001){
+    if(distance(_ray.origin, _ray(_intersection_t)) > 1e-5){
     return (_intersection_t >= 0);
     } else {
     return false;

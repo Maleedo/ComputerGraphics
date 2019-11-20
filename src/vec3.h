@@ -102,10 +102,11 @@ public:
 
 //-----------------------------------------------------------------------------
 
+
 //checks if vector \c v and vector \c w are equal
 inline bool operator==(const vec3 v, const vec3 w)
 {	
-	return(v[0] == w[0] && v[1] == w[1] && v[2] == w[2]);
+	return((fabs(v[0] - w[0]) < 1e-5 &&  fabs(v[1] - w[1]) < 1e-5 && fabs(v[2] - w[2]) < 1e-5));
 }    
 	
 

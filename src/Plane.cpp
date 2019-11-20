@@ -37,8 +37,6 @@ intersect(const Ray& _ray,
           double&    _intersection_t ) const
 {
 
-    _intersection_diffuse = material.diffuse;
-
 /** \to do
  * - compute the intersection of the plane with `_ray`
  * - if ray and plane are parallel there is no intersection
@@ -50,8 +48,9 @@ intersect(const Ray& _ray,
 
     //Avoid shadow acne
 
-    if (distance(_ray.origin, _ray(_intersection_t)) > 0.00001)
+    if (distance(_ray.origin, _ray(_intersection_t)) > 1e-5)
     {
+        _intersection_diffuse = material.diffuse;
     	_intersection_point = _ray(_intersection_t);
         _intersection_normal = normal;
         return(_intersection_t >= 0);
