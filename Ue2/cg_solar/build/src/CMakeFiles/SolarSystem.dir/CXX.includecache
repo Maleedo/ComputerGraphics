@@ -1,0 +1,252 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/glew/glew.h
+stddef.h
+-
+inttypes.h
+-
+stdint.h
+-
+inttypes.h
+-
+Availability.h
+-
+OpenGL/glu.h
+-
+GL/glu.h
+-
+
+../lib/glfw/include/GLFW/glfw3.h
+stddef.h
+-
+stdint.h
+-
+GLES/gl.h
+-
+GLES/glext.h
+-
+GLES2/gl2.h
+-
+GLES2/gl2ext.h
+-
+GLES3/gl3.h
+-
+GLES2/gl2ext.h
+-
+GLES3/gl31.h
+-
+GLES2/gl2ext.h
+-
+GLES3/gl32.h
+-
+GLES2/gl2ext.h
+-
+OpenGL/gl3.h
+-
+OpenGL/gl3ext.h
+-
+GL/glcorearb.h
+-
+OpenGL/gl.h
+-
+OpenGL/glu.h
+-
+GL/gl.h
+-
+GL/glext.h
+-
+GL/glu.h
+-
+vulkan/vulkan.h
+-
+
+../lib/lodePNG/lodepng.h
+string.h
+-
+vector
+-
+string
+-
+lodepng.h
+../lib/lodePNG/lodepng.h
+iostream
+-
+lodepng.h
+../lib/lodePNG/lodepng.h
+
+../lib/utils/gl.h
+glew.h
+-
+stdlib.h
+-
+glew.h
+-
+glew.h
+-
+iostream
+-
+
+../lib/utils/glfw_window.h
+gl.h
+../lib/utils/gl.h
+stdlib.h
+-
+stdio.h
+-
+GLFW/glfw3.h
+-
+vector
+-
+map
+-
+string
+-
+
+../lib/utils/glmath.h
+iostream
+-
+assert.h
+-
+math.h
+-
+algorithm
+-
+
+../lib/utils/mesh.h
+gl.h
+../lib/utils/gl.h
+glmath.h
+../lib/utils/glmath.h
+vector
+-
+
+../lib/utils/shader.h
+gl.h
+../lib/utils/gl.h
+glmath.h
+../lib/utils/glmath.h
+vector
+-
+
+../lib/utils/sphere.h
+mesh.h
+../lib/utils/mesh.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/billboard.cpp
+billboard.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/billboard.h
+iostream
+-
+cmath
+-
+cassert
+-
+algorithm
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/billboard.h
+glmath.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/glmath.h
+vector
+-
+texture.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/texture.h
+mesh.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/mesh.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/main.cpp
+solar_viewer.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/solar_viewer.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/planet.cpp
+planet.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/planet.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/planet.h
+texture.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/texture.h
+glmath.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/glmath.h
+sphere.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/sphere.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/saturn_rings.h
+glmath.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/glmath.h
+vector
+-
+texture.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/texture.h
+mesh.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/mesh.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/ship.cpp
+ship.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/ship.h
+fstream
+-
+string
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/ship.h
+glmath.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/glmath.h
+vector
+-
+texture.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/texture.h
+mesh.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/mesh.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/solar_viewer.cpp
+solar_viewer.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/solar_viewer.h
+glmath.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/glmath.h
+stdlib.h
+-
+time.h
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/solar_viewer.h
+gl.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/gl.h
+glfw_window.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/glfw_window.h
+glmath.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/glmath.h
+shader.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/shader.h
+texture.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/texture.h
+planet.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/planet.h
+ship.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/ship.h
+billboard.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/billboard.h
+saturn_rings.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/saturn_rings.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/texture.cpp
+texture.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/texture.h
+iostream
+-
+assert.h
+-
+lodepng.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/lodepng.h
+algorithm
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/texture.h
+gl.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/gl.h
+

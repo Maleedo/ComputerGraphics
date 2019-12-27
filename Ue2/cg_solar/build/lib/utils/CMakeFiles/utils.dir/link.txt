@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../libutils.a  CMakeFiles/utils.dir/glfw_window.cpp.o CMakeFiles/utils.dir/glmath.cpp.o CMakeFiles/utils.dir/mesh.cpp.o CMakeFiles/utils.dir/shader.cpp.o CMakeFiles/utils.dir/sphere.cpp.o
+/usr/bin/ranlib ../../libutils.a

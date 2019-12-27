@@ -1,0 +1,164 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/glew/glew.h
+stddef.h
+-
+inttypes.h
+-
+stdint.h
+-
+inttypes.h
+-
+Availability.h
+-
+OpenGL/glu.h
+-
+GL/glu.h
+-
+
+../lib/glfw/include/GLFW/glfw3.h
+stddef.h
+-
+stdint.h
+-
+GLES/gl.h
+-
+GLES/glext.h
+-
+GLES2/gl2.h
+-
+GLES2/gl2ext.h
+-
+GLES3/gl3.h
+-
+GLES2/gl2ext.h
+-
+GLES3/gl31.h
+-
+GLES2/gl2ext.h
+-
+GLES3/gl32.h
+-
+GLES2/gl2ext.h
+-
+OpenGL/gl3.h
+-
+OpenGL/gl3ext.h
+-
+GL/glcorearb.h
+-
+OpenGL/gl.h
+-
+OpenGL/glu.h
+-
+GL/gl.h
+-
+GL/glext.h
+-
+GL/glu.h
+-
+vulkan/vulkan.h
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/gl.h
+glew.h
+-
+stdlib.h
+-
+glew.h
+-
+glew.h
+-
+iostream
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/glfw_window.cpp
+glfw_window.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/glfw_window.h
+iostream
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/glfw_window.h
+gl.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/gl.h
+stdlib.h
+-
+stdio.h
+-
+GLFW/glfw3.h
+-
+vector
+-
+map
+-
+string
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/glmath.cpp
+glmath.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/glmath.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/glmath.h
+iostream
+-
+assert.h
+-
+math.h
+-
+algorithm
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/mesh.cpp
+mesh.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/mesh.h
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/mesh.h
+gl.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/gl.h
+glmath.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/glmath.h
+vector
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/shader.cpp
+shader.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/shader.h
+iostream
+-
+fstream
+-
+sstream
+-
+assert.h
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/shader.h
+gl.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/gl.h
+glmath.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/glmath.h
+vector
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/sphere.cpp
+sphere.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/sphere.h
+glmath.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/glmath.h
+vector
+-
+math.h
+-
+iostream
+-
+
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/sphere.h
+mesh.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils/mesh.h
+
