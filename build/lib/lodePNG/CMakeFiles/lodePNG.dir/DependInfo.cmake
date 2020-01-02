@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/lib/lodePNG/lodepng.cpp" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/lib/lodePNG/CMakeFiles/lodePNG.dir/lodepng.cpp.o"
+  "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/lib/lodePNG/lodepng.cpp" "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build/lib/lodePNG/CMakeFiles/lodePNG.dir/lodepng.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

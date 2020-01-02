@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar"
+CMAKE_SOURCE_DIR = "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build"
+CMAKE_BINARY_DIR = "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src/CMakeFiles/progress.marks"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles" 0
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/CMakeFiles" "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/src/CMakeFiles/progress.marks"
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/SolarSystem.dir/rule:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/SolarSystem.dir/rule
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/SolarSystem.dir/rule
 .PHONY : src/CMakeFiles/SolarSystem.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ SolarSystem: src/CMakeFiles/SolarSystem.dir/rule
 
 # fast build rule for target.
 SolarSystem/fast:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/build
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/build
 .PHONY : SolarSystem/fast
 
 billboard.o: billboard.cpp.o
@@ -131,7 +131,7 @@ billboard.o: billboard.cpp.o
 
 # target to build an object file
 billboard.cpp.o:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/billboard.cpp.o
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/billboard.cpp.o
 .PHONY : billboard.cpp.o
 
 billboard.i: billboard.cpp.i
@@ -140,7 +140,7 @@ billboard.i: billboard.cpp.i
 
 # target to preprocess a source file
 billboard.cpp.i:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/billboard.cpp.i
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/billboard.cpp.i
 .PHONY : billboard.cpp.i
 
 billboard.s: billboard.cpp.s
@@ -149,7 +149,7 @@ billboard.s: billboard.cpp.s
 
 # target to generate assembly for a file
 billboard.cpp.s:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/billboard.cpp.s
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/billboard.cpp.s
 .PHONY : billboard.cpp.s
 
 main.o: main.cpp.o
@@ -158,7 +158,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/main.cpp.o
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -167,7 +167,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/main.cpp.i
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -176,7 +176,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/main.cpp.s
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 planet.o: planet.cpp.o
@@ -185,7 +185,7 @@ planet.o: planet.cpp.o
 
 # target to build an object file
 planet.cpp.o:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/planet.cpp.o
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/planet.cpp.o
 .PHONY : planet.cpp.o
 
 planet.i: planet.cpp.i
@@ -194,7 +194,7 @@ planet.i: planet.cpp.i
 
 # target to preprocess a source file
 planet.cpp.i:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/planet.cpp.i
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/planet.cpp.i
 .PHONY : planet.cpp.i
 
 planet.s: planet.cpp.s
@@ -203,7 +203,7 @@ planet.s: planet.cpp.s
 
 # target to generate assembly for a file
 planet.cpp.s:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/planet.cpp.s
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/planet.cpp.s
 .PHONY : planet.cpp.s
 
 ship.o: ship.cpp.o
@@ -212,7 +212,7 @@ ship.o: ship.cpp.o
 
 # target to build an object file
 ship.cpp.o:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/ship.cpp.o
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/ship.cpp.o
 .PHONY : ship.cpp.o
 
 ship.i: ship.cpp.i
@@ -221,7 +221,7 @@ ship.i: ship.cpp.i
 
 # target to preprocess a source file
 ship.cpp.i:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/ship.cpp.i
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/ship.cpp.i
 .PHONY : ship.cpp.i
 
 ship.s: ship.cpp.s
@@ -230,7 +230,7 @@ ship.s: ship.cpp.s
 
 # target to generate assembly for a file
 ship.cpp.s:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/ship.cpp.s
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/ship.cpp.s
 .PHONY : ship.cpp.s
 
 solar_viewer.o: solar_viewer.cpp.o
@@ -239,7 +239,7 @@ solar_viewer.o: solar_viewer.cpp.o
 
 # target to build an object file
 solar_viewer.cpp.o:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/solar_viewer.cpp.o
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/solar_viewer.cpp.o
 .PHONY : solar_viewer.cpp.o
 
 solar_viewer.i: solar_viewer.cpp.i
@@ -248,7 +248,7 @@ solar_viewer.i: solar_viewer.cpp.i
 
 # target to preprocess a source file
 solar_viewer.cpp.i:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/solar_viewer.cpp.i
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/solar_viewer.cpp.i
 .PHONY : solar_viewer.cpp.i
 
 solar_viewer.s: solar_viewer.cpp.s
@@ -257,7 +257,7 @@ solar_viewer.s: solar_viewer.cpp.s
 
 # target to generate assembly for a file
 solar_viewer.cpp.s:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/solar_viewer.cpp.s
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/solar_viewer.cpp.s
 .PHONY : solar_viewer.cpp.s
 
 texture.o: texture.cpp.o
@@ -266,7 +266,7 @@ texture.o: texture.cpp.o
 
 # target to build an object file
 texture.cpp.o:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/texture.cpp.o
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/texture.cpp.o
 .PHONY : texture.cpp.o
 
 texture.i: texture.cpp.i
@@ -275,7 +275,7 @@ texture.i: texture.cpp.i
 
 # target to preprocess a source file
 texture.cpp.i:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/texture.cpp.i
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/texture.cpp.i
 .PHONY : texture.cpp.i
 
 texture.s: texture.cpp.s
@@ -284,7 +284,7 @@ texture.s: texture.cpp.s
 
 # target to generate assembly for a file
 texture.cpp.s:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/texture.cpp.s
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f src/CMakeFiles/SolarSystem.dir/build.make src/CMakeFiles/SolarSystem.dir/texture.cpp.s
 .PHONY : texture.cpp.s
 
 # Help Target
@@ -325,6 +325,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

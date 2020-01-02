@@ -42,5 +42,33 @@ void main()
     *   - There is not the one right way to get the desired results. Feel free to use some magic numbers or creative solutions.
      */
     
+/**
+    // fetch color from texture
+    vec3 material = texture(day_texture, v2f_texcoord.st).rgb;
+    float alpha = texture(tex, v2f_texcoord.st).a;
 
+    vec3 color = vec3(0.0,0.0,0.0);
+
+    vec3 ambient_color = material * sunlight * 0.2;
+
+    float light_angle = dot(v2f_light,v2f_normal);
+
+    vec3 diffuse_color = vec3(0,0,0);
+
+    //if(light_angle > 0) {
+        diffuse_color = material * sunlight * light_angle;
+    //}
+
+    vec3 specular_color = material * sunlight * pow((dot(reflect(v2f_light,v2f_normal),v2f_view)),shininess) * 0.2;
+
+    color += ambient_color + diffuse_color + specular_color;
+
+
+    // convert RGB color to YUV color and use only the luminance
+    if (greyscale) color = vec3(0.299*color.r+0.587*color.g+0.114*color.b);
+
+    // add required alpha value
+    f_color = vec4(color, alpha);
+
+    **/
 }

@@ -6,5 +6,5 @@ CXX_FLAGS =  -fopenmp -std=c++0x -fPIC -Wall -pedantic -ansi -O3 -DNDEBUG
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/lib/lodePNG" 
+CXX_INCLUDES = -I"/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/lib/lodePNG" 
 

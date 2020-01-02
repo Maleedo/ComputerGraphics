@@ -44,16 +44,38 @@ bool Ship::load_model(const char* _filename)
 	*	- 3D modelling software is capable of reading and writing `.off` files. (for example, google "blender import .off")
 	**/
 
-	// DELETE ME BEGIN
-	vertices_.push_back(vec3(0,0,2));
-	vertices_.push_back(vec3(1, 0, 0));
-	vertices_.push_back(vec3(-1, 0, 0));
-        indices_.push_back(0);
-        indices_.push_back(1);
-        indices_.push_back(2);
-	// DELETE ME END
+    int vertices;
+    int faces;
+    int edges;
 
+    ifs >> vertices >> faces >> edges;
 
+    for (int i = 0; i < vertices; i++)
+    {
+        float x;
+        float y;
+        float z;
+
+        ifs >> x >> y >> z;
+
+        vertices_.push_back(vec3(x,y,z));
+        //std::cout << x << " x " << y << " y " << z << " z ";
+       // std::cout << " new line ";
+    }
+
+    for (int j = 0; j < faces; j++)
+    {
+        int i_x;
+        int i_y;
+        int i_z;
+        int rgb;
+
+        ifs >> i_x >> i_y >> i_z >> rgb;
+
+        indices_.push_back(i_x);
+        indices_.push_back(i_y);
+        indices_.push_back(i_z);
+    }
 
 	// close file
 	ifs.close();

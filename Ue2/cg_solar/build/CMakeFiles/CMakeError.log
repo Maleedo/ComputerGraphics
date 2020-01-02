@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_08f61/fast"
-/usr/bin/make -f CMakeFiles/cmTC_08f61.dir/build.make CMakeFiles/cmTC_08f61.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_08f61.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_08f61.dir/CheckSymbolExists.c.o   -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_08f61
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08f61.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_08f61.dir/CheckSymbolExists.c.o  -o cmTC_08f61 
-CMakeFiles/cmTC_08f61.dir/CheckSymbolExists.c.o: In Funktion »main«:
-CheckSymbolExists.c:(.text+0x1b): Warnung: undefinierter Verweis auf »pthread_create«
+Run Build Command:"/usr/bin/make" "cmTC_cb3e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb3e4.dir/build.make CMakeFiles/cmTC_cb3e4.dir/build
+make[1]: Entering directory '/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb3e4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cb3e4.dir/CheckSymbolExists.c.o   -c "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_cb3e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb3e4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cb3e4.dir/CheckSymbolExists.c.o  -o cmTC_cb3e4 
+CMakeFiles/cmTC_cb3e4.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_08f61.dir/build.make:97: recipe for target 'cmTC_08f61' failed
-make[1]: *** [cmTC_08f61] Error 1
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
-Makefile:126: recipe for target 'cmTC_08f61/fast' failed
-make: *** [cmTC_08f61/fast] Error 2
+CMakeFiles/cmTC_cb3e4.dir/build.make:97: recipe for target 'cmTC_cb3e4' failed
+make[1]: *** [cmTC_cb3e4] Error 1
+make[1]: Leaving directory '/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cb3e4/fast' failed
+make: *** [cmTC_cb3e4/fast] Error 2
 
-File /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5db80/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5db80.dir/build.make CMakeFiles/cmTC_5db80.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_5db80.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5db80.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5db80
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5db80.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5db80.dir/CheckFunctionExists.c.o  -o cmTC_5db80 -lpthreads 
-/usr/bin/ld: -lpthreads kann nicht gefunden werden
+Run Build Command:"/usr/bin/make" "cmTC_57ca7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57ca7.dir/build.make CMakeFiles/cmTC_57ca7.dir/build
+make[1]: Entering directory '/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57ca7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_57ca7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_57ca7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57ca7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_57ca7.dir/CheckFunctionExists.c.o  -o cmTC_57ca7 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_5db80.dir/build.make:97: recipe for target 'cmTC_5db80' failed
-make[1]: *** [cmTC_5db80] Error 1
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
-Makefile:126: recipe for target 'cmTC_5db80/fast' failed
-make: *** [cmTC_5db80/fast] Error 2
+CMakeFiles/cmTC_57ca7.dir/build.make:97: recipe for target 'cmTC_57ca7' failed
+make[1]: *** [cmTC_57ca7] Error 1
+make[1]: Leaving directory '/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_57ca7/fast' failed
+make: *** [cmTC_57ca7/fast] Error 2
 
 

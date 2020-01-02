@@ -1,4 +1,4 @@
-# Install script for directory: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer
+# Install script for directory: /homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/src/cmake_install.cmake")
-  include("/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/lib/cmake_install.cmake")
+  include("/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build/src/cmake_install.cmake")
+  include("/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build/lib/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

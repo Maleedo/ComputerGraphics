@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer"
+CMAKE_SOURCE_DIR = "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build"
+CMAKE_BINARY_DIR = "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/CMakeFiles" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/src/CMakeFiles/progress.marks"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build/CMakeFiles" 0
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build/CMakeFiles" "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build/src/CMakeFiles/progress.marks"
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/raytrace.dir/rule:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raytrace.dir/rule
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raytrace.dir/rule
 .PHONY : src/CMakeFiles/raytrace.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ raytrace: src/CMakeFiles/raytrace.dir/rule
 
 # fast build rule for target.
 raytrace/fast:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/build
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/build
 .PHONY : raytrace/fast
 
 Mesh.o: Mesh.cpp.o
@@ -131,7 +131,7 @@ Mesh.o: Mesh.cpp.o
 
 # target to build an object file
 Mesh.cpp.o:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/Mesh.cpp.o
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/Mesh.cpp.o
 .PHONY : Mesh.cpp.o
 
 Mesh.i: Mesh.cpp.i
@@ -140,7 +140,7 @@ Mesh.i: Mesh.cpp.i
 
 # target to preprocess a source file
 Mesh.cpp.i:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/Mesh.cpp.i
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/Mesh.cpp.i
 .PHONY : Mesh.cpp.i
 
 Mesh.s: Mesh.cpp.s
@@ -149,7 +149,7 @@ Mesh.s: Mesh.cpp.s
 
 # target to generate assembly for a file
 Mesh.cpp.s:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/Mesh.cpp.s
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/Mesh.cpp.s
 .PHONY : Mesh.cpp.s
 
 Plane.o: Plane.cpp.o
@@ -158,7 +158,7 @@ Plane.o: Plane.cpp.o
 
 # target to build an object file
 Plane.cpp.o:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/Plane.cpp.o
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/Plane.cpp.o
 .PHONY : Plane.cpp.o
 
 Plane.i: Plane.cpp.i
@@ -167,7 +167,7 @@ Plane.i: Plane.cpp.i
 
 # target to preprocess a source file
 Plane.cpp.i:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/Plane.cpp.i
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/Plane.cpp.i
 .PHONY : Plane.cpp.i
 
 Plane.s: Plane.cpp.s
@@ -176,7 +176,7 @@ Plane.s: Plane.cpp.s
 
 # target to generate assembly for a file
 Plane.cpp.s:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/Plane.cpp.s
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/Plane.cpp.s
 .PHONY : Plane.cpp.s
 
 Sphere.o: Sphere.cpp.o
@@ -185,7 +185,7 @@ Sphere.o: Sphere.cpp.o
 
 # target to build an object file
 Sphere.cpp.o:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/Sphere.cpp.o
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/Sphere.cpp.o
 .PHONY : Sphere.cpp.o
 
 Sphere.i: Sphere.cpp.i
@@ -194,7 +194,7 @@ Sphere.i: Sphere.cpp.i
 
 # target to preprocess a source file
 Sphere.cpp.i:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/Sphere.cpp.i
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/Sphere.cpp.i
 .PHONY : Sphere.cpp.i
 
 Sphere.s: Sphere.cpp.s
@@ -203,7 +203,7 @@ Sphere.s: Sphere.cpp.s
 
 # target to generate assembly for a file
 Sphere.cpp.s:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/Sphere.cpp.s
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/Sphere.cpp.s
 .PHONY : Sphere.cpp.s
 
 raytrace.o: raytrace.cpp.o
@@ -212,7 +212,7 @@ raytrace.o: raytrace.cpp.o
 
 # target to build an object file
 raytrace.cpp.o:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/raytrace.cpp.o
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/raytrace.cpp.o
 .PHONY : raytrace.cpp.o
 
 raytrace.i: raytrace.cpp.i
@@ -221,7 +221,7 @@ raytrace.i: raytrace.cpp.i
 
 # target to preprocess a source file
 raytrace.cpp.i:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/raytrace.cpp.i
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/raytrace.cpp.i
 .PHONY : raytrace.cpp.i
 
 raytrace.s: raytrace.cpp.s
@@ -230,7 +230,7 @@ raytrace.s: raytrace.cpp.s
 
 # target to generate assembly for a file
 raytrace.cpp.s:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/raytrace.cpp.s
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/raytrace.cpp.s
 .PHONY : raytrace.cpp.s
 
 vec3.o: vec3.cpp.o
@@ -239,7 +239,7 @@ vec3.o: vec3.cpp.o
 
 # target to build an object file
 vec3.cpp.o:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/vec3.cpp.o
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/vec3.cpp.o
 .PHONY : vec3.cpp.o
 
 vec3.i: vec3.cpp.i
@@ -248,7 +248,7 @@ vec3.i: vec3.cpp.i
 
 # target to preprocess a source file
 vec3.cpp.i:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/vec3.cpp.i
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/vec3.cpp.i
 .PHONY : vec3.cpp.i
 
 vec3.s: vec3.cpp.s
@@ -257,7 +257,7 @@ vec3.s: vec3.cpp.s
 
 # target to generate assembly for a file
 vec3.cpp.s:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/vec3.cpp.s
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(MAKE) -f src/CMakeFiles/raytrace.dir/build.make src/CMakeFiles/raytrace.dir/vec3.cpp.s
 .PHONY : vec3.cpp.s
 
 # Help Target
@@ -295,6 +295,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
