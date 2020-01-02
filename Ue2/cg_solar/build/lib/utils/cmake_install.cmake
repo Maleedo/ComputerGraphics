@@ -1,4 +1,4 @@
-# Install script for directory: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils
+# Install script for directory: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

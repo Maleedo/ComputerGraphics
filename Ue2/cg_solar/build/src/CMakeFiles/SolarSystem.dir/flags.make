@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++0x -O3 -DNDEBUG
 
 CXX_DEFINES = -DGLEW_STATIC
 
-CXX_INCLUDES = -I"/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src" -I"/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/glew" -I"/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/glfw/include" -I"/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/lodePNG" -I"/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/utils" -I"/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/shader" 
+CXX_INCLUDES = -I"/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src" -I"/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/glew" -I"/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/glfw/include" -I"/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/lodePNG" -I"/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/utils" -I"/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/shader" 
 

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/lodePNG/lodepng.cpp
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/lodePNG/lodepng.cpp
 lodepng.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/lodePNG/lodepng.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/lodePNG/lodepng.h
 stdio.h
 -
 stdlib.h
@@ -16,7 +16,7 @@ stdlib.h
 fstream
 -
 
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/lodePNG/lodepng.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/lodePNG/lodepng.h
 string.h
 -
 vector
@@ -24,9 +24,9 @@ vector
 string
 -
 lodepng.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/lodePNG/lodepng.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/lodePNG/lodepng.h
 iostream
 -
 lodepng.h
-/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/lodePNG/lodepng.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/lodePNG/lodepng.h
 

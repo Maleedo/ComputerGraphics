@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar"
+CMAKE_SOURCE_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build"
+CMAKE_BINARY_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build"
 
 # Include any dependencies generated for this target.
 include lib/lodePNG/CMakeFiles/lodePNG.dir/depend.make
@@ -59,16 +59,16 @@ include lib/lodePNG/CMakeFiles/lodePNG.dir/flags.make
 
 lib/lodePNG/CMakeFiles/lodePNG.dir/lodepng.cpp.o: lib/lodePNG/CMakeFiles/lodePNG.dir/flags.make
 lib/lodePNG/CMakeFiles/lodePNG.dir/lodepng.cpp.o: ../lib/lodePNG/lodepng.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/lodePNG/CMakeFiles/lodePNG.dir/lodepng.cpp.o"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/lib/lodePNG" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lodePNG.dir/lodepng.cpp.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/lodePNG/lodepng.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/lodePNG/CMakeFiles/lodePNG.dir/lodepng.cpp.o"
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/lib/lodePNG" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lodePNG.dir/lodepng.cpp.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/lodePNG/lodepng.cpp"
 
 lib/lodePNG/CMakeFiles/lodePNG.dir/lodepng.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lodePNG.dir/lodepng.cpp.i"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/lib/lodePNG" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/lodePNG/lodepng.cpp" > CMakeFiles/lodePNG.dir/lodepng.cpp.i
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/lib/lodePNG" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/lodePNG/lodepng.cpp" > CMakeFiles/lodePNG.dir/lodepng.cpp.i
 
 lib/lodePNG/CMakeFiles/lodePNG.dir/lodepng.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lodePNG.dir/lodepng.cpp.s"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/lib/lodePNG" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/lodePNG/lodepng.cpp" -o CMakeFiles/lodePNG.dir/lodepng.cpp.s
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/lib/lodePNG" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/lodePNG/lodepng.cpp" -o CMakeFiles/lodePNG.dir/lodepng.cpp.s
 
 lib/lodePNG/CMakeFiles/lodePNG.dir/lodepng.cpp.o.requires:
 
@@ -91,9 +91,9 @@ lodePNG_EXTERNAL_OBJECTS =
 liblodePNG.a: lib/lodePNG/CMakeFiles/lodePNG.dir/lodepng.cpp.o
 liblodePNG.a: lib/lodePNG/CMakeFiles/lodePNG.dir/build.make
 liblodePNG.a: lib/lodePNG/CMakeFiles/lodePNG.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../liblodePNG.a"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/lib/lodePNG" && $(CMAKE_COMMAND) -P CMakeFiles/lodePNG.dir/cmake_clean_target.cmake
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/lib/lodePNG" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lodePNG.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../liblodePNG.a"
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/lib/lodePNG" && $(CMAKE_COMMAND) -P CMakeFiles/lodePNG.dir/cmake_clean_target.cmake
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/lib/lodePNG" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lodePNG.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/lodePNG/CMakeFiles/lodePNG.dir/build: liblodePNG.a
@@ -105,10 +105,10 @@ lib/lodePNG/CMakeFiles/lodePNG.dir/requires: lib/lodePNG/CMakeFiles/lodePNG.dir/
 .PHONY : lib/lodePNG/CMakeFiles/lodePNG.dir/requires
 
 lib/lodePNG/CMakeFiles/lodePNG.dir/clean:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/lib/lodePNG" && $(CMAKE_COMMAND) -P CMakeFiles/lodePNG.dir/cmake_clean.cmake
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/lib/lodePNG" && $(CMAKE_COMMAND) -P CMakeFiles/lodePNG.dir/cmake_clean.cmake
 .PHONY : lib/lodePNG/CMakeFiles/lodePNG.dir/clean
 
 lib/lodePNG/CMakeFiles/lodePNG.dir/depend:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/lib/lodePNG" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/lib/lodePNG" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/lib/lodePNG/CMakeFiles/lodePNG.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/lodePNG" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/lib/lodePNG" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/lib/lodePNG/CMakeFiles/lodePNG.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : lib/lodePNG/CMakeFiles/lodePNG.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar"
+CMAKE_SOURCE_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build"
+CMAKE_BINARY_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build"
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/SolarSystem.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/SolarSystem.dir/flags.make
 
 src/CMakeFiles/SolarSystem.dir/billboard.cpp.o: src/CMakeFiles/SolarSystem.dir/flags.make
 src/CMakeFiles/SolarSystem.dir/billboard.cpp.o: ../src/billboard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/SolarSystem.dir/billboard.cpp.o"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolarSystem.dir/billboard.cpp.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/billboard.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/SolarSystem.dir/billboard.cpp.o"
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolarSystem.dir/billboard.cpp.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/billboard.cpp"
 
 src/CMakeFiles/SolarSystem.dir/billboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SolarSystem.dir/billboard.cpp.i"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/billboard.cpp" > CMakeFiles/SolarSystem.dir/billboard.cpp.i
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/billboard.cpp" > CMakeFiles/SolarSystem.dir/billboard.cpp.i
 
 src/CMakeFiles/SolarSystem.dir/billboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SolarSystem.dir/billboard.cpp.s"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/billboard.cpp" -o CMakeFiles/SolarSystem.dir/billboard.cpp.s
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/billboard.cpp" -o CMakeFiles/SolarSystem.dir/billboard.cpp.s
 
 src/CMakeFiles/SolarSystem.dir/billboard.cpp.o.requires:
 
@@ -83,16 +83,16 @@ src/CMakeFiles/SolarSystem.dir/billboard.cpp.o.provides.build: src/CMakeFiles/So
 
 src/CMakeFiles/SolarSystem.dir/main.cpp.o: src/CMakeFiles/SolarSystem.dir/flags.make
 src/CMakeFiles/SolarSystem.dir/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/SolarSystem.dir/main.cpp.o"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolarSystem.dir/main.cpp.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/SolarSystem.dir/main.cpp.o"
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolarSystem.dir/main.cpp.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/main.cpp"
 
 src/CMakeFiles/SolarSystem.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SolarSystem.dir/main.cpp.i"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/main.cpp" > CMakeFiles/SolarSystem.dir/main.cpp.i
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/main.cpp" > CMakeFiles/SolarSystem.dir/main.cpp.i
 
 src/CMakeFiles/SolarSystem.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SolarSystem.dir/main.cpp.s"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/main.cpp" -o CMakeFiles/SolarSystem.dir/main.cpp.s
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/main.cpp" -o CMakeFiles/SolarSystem.dir/main.cpp.s
 
 src/CMakeFiles/SolarSystem.dir/main.cpp.o.requires:
 
@@ -107,16 +107,16 @@ src/CMakeFiles/SolarSystem.dir/main.cpp.o.provides.build: src/CMakeFiles/SolarSy
 
 src/CMakeFiles/SolarSystem.dir/planet.cpp.o: src/CMakeFiles/SolarSystem.dir/flags.make
 src/CMakeFiles/SolarSystem.dir/planet.cpp.o: ../src/planet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/SolarSystem.dir/planet.cpp.o"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolarSystem.dir/planet.cpp.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/planet.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/SolarSystem.dir/planet.cpp.o"
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolarSystem.dir/planet.cpp.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/planet.cpp"
 
 src/CMakeFiles/SolarSystem.dir/planet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SolarSystem.dir/planet.cpp.i"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/planet.cpp" > CMakeFiles/SolarSystem.dir/planet.cpp.i
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/planet.cpp" > CMakeFiles/SolarSystem.dir/planet.cpp.i
 
 src/CMakeFiles/SolarSystem.dir/planet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SolarSystem.dir/planet.cpp.s"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/planet.cpp" -o CMakeFiles/SolarSystem.dir/planet.cpp.s
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/planet.cpp" -o CMakeFiles/SolarSystem.dir/planet.cpp.s
 
 src/CMakeFiles/SolarSystem.dir/planet.cpp.o.requires:
 
@@ -131,16 +131,16 @@ src/CMakeFiles/SolarSystem.dir/planet.cpp.o.provides.build: src/CMakeFiles/Solar
 
 src/CMakeFiles/SolarSystem.dir/ship.cpp.o: src/CMakeFiles/SolarSystem.dir/flags.make
 src/CMakeFiles/SolarSystem.dir/ship.cpp.o: ../src/ship.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/SolarSystem.dir/ship.cpp.o"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolarSystem.dir/ship.cpp.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/ship.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/SolarSystem.dir/ship.cpp.o"
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolarSystem.dir/ship.cpp.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/ship.cpp"
 
 src/CMakeFiles/SolarSystem.dir/ship.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SolarSystem.dir/ship.cpp.i"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/ship.cpp" > CMakeFiles/SolarSystem.dir/ship.cpp.i
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/ship.cpp" > CMakeFiles/SolarSystem.dir/ship.cpp.i
 
 src/CMakeFiles/SolarSystem.dir/ship.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SolarSystem.dir/ship.cpp.s"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/ship.cpp" -o CMakeFiles/SolarSystem.dir/ship.cpp.s
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/ship.cpp" -o CMakeFiles/SolarSystem.dir/ship.cpp.s
 
 src/CMakeFiles/SolarSystem.dir/ship.cpp.o.requires:
 
@@ -155,16 +155,16 @@ src/CMakeFiles/SolarSystem.dir/ship.cpp.o.provides.build: src/CMakeFiles/SolarSy
 
 src/CMakeFiles/SolarSystem.dir/solar_viewer.cpp.o: src/CMakeFiles/SolarSystem.dir/flags.make
 src/CMakeFiles/SolarSystem.dir/solar_viewer.cpp.o: ../src/solar_viewer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/SolarSystem.dir/solar_viewer.cpp.o"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolarSystem.dir/solar_viewer.cpp.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/solar_viewer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/SolarSystem.dir/solar_viewer.cpp.o"
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolarSystem.dir/solar_viewer.cpp.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/solar_viewer.cpp"
 
 src/CMakeFiles/SolarSystem.dir/solar_viewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SolarSystem.dir/solar_viewer.cpp.i"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/solar_viewer.cpp" > CMakeFiles/SolarSystem.dir/solar_viewer.cpp.i
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/solar_viewer.cpp" > CMakeFiles/SolarSystem.dir/solar_viewer.cpp.i
 
 src/CMakeFiles/SolarSystem.dir/solar_viewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SolarSystem.dir/solar_viewer.cpp.s"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/solar_viewer.cpp" -o CMakeFiles/SolarSystem.dir/solar_viewer.cpp.s
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/solar_viewer.cpp" -o CMakeFiles/SolarSystem.dir/solar_viewer.cpp.s
 
 src/CMakeFiles/SolarSystem.dir/solar_viewer.cpp.o.requires:
 
@@ -179,16 +179,16 @@ src/CMakeFiles/SolarSystem.dir/solar_viewer.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/SolarSystem.dir/texture.cpp.o: src/CMakeFiles/SolarSystem.dir/flags.make
 src/CMakeFiles/SolarSystem.dir/texture.cpp.o: ../src/texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/SolarSystem.dir/texture.cpp.o"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolarSystem.dir/texture.cpp.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/texture.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/SolarSystem.dir/texture.cpp.o"
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolarSystem.dir/texture.cpp.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/texture.cpp"
 
 src/CMakeFiles/SolarSystem.dir/texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SolarSystem.dir/texture.cpp.i"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/texture.cpp" > CMakeFiles/SolarSystem.dir/texture.cpp.i
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/texture.cpp" > CMakeFiles/SolarSystem.dir/texture.cpp.i
 
 src/CMakeFiles/SolarSystem.dir/texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SolarSystem.dir/texture.cpp.s"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src/texture.cpp" -o CMakeFiles/SolarSystem.dir/texture.cpp.s
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/texture.cpp" -o CMakeFiles/SolarSystem.dir/texture.cpp.s
 
 src/CMakeFiles/SolarSystem.dir/texture.cpp.o.requires:
 
@@ -230,8 +230,8 @@ SolarSystem: /usr/lib/x86_64-linux-gnu/librt.so
 SolarSystem: /usr/lib/x86_64-linux-gnu/libm.so
 SolarSystem: /usr/lib/x86_64-linux-gnu/libX11.so
 SolarSystem: src/CMakeFiles/SolarSystem.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../SolarSystem"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SolarSystem.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../SolarSystem"
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SolarSystem.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/SolarSystem.dir/build: SolarSystem
@@ -248,10 +248,10 @@ src/CMakeFiles/SolarSystem.dir/requires: src/CMakeFiles/SolarSystem.dir/texture.
 .PHONY : src/CMakeFiles/SolarSystem.dir/requires
 
 src/CMakeFiles/SolarSystem.dir/clean:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" && $(CMAKE_COMMAND) -P CMakeFiles/SolarSystem.dir/cmake_clean.cmake
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" && $(CMAKE_COMMAND) -P CMakeFiles/SolarSystem.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/SolarSystem.dir/clean
 
 src/CMakeFiles/SolarSystem.dir/depend:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/src" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/src/CMakeFiles/SolarSystem.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src/CMakeFiles/SolarSystem.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/CMakeFiles/SolarSystem.dir/depend
 

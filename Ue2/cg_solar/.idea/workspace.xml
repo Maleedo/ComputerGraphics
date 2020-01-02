@@ -1,7 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91701b68-bc03-4f9a-902e-18fdde756ea4" name="Default Changelist" comment="" />
+    <list default="true" id="91701b68-bc03-4f9a-902e-18fdde756ea4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/SolarSystem" beforeDir="false" afterPath="$PROJECT_DIR$/build/SolarSystem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glew/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glew/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glew/CMakeFiles/glew.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glew/CMakeFiles/glew.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glew/CMakeFiles/glew.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glew/CMakeFiles/glew.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glew/CMakeFiles/glew.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glew/CMakeFiles/glew.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glew/CMakeFiles/glew.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glew/CMakeFiles/glew.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glew/CMakeFiles/glew.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glew/CMakeFiles/glew.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glew/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glew/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glew/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glew/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glfw/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glfw/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glfw/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glfw/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glfw/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glfw/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glfw/src/CMakeFiles/glfw.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glfw/src/CMakeFiles/glfw.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glfw/src/CMakeFiles/glfw.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glfw/src/CMakeFiles/glfw.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glfw/src/CMakeFiles/glfw.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glfw/src/CMakeFiles/glfw.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glfw/src/CMakeFiles/glfw.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glfw/src/CMakeFiles/glfw.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glfw/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glfw/src/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/glfw/src/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/glfw/src/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/lodePNG/CMakeFiles/lodePNG.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/lodePNG/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/lodePNG/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/lodePNG/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/lodePNG/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/utils/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/utils/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/utils/CMakeFiles/utils.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/utils/CMakeFiles/utils.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/utils/CMakeFiles/utils.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/utils/CMakeFiles/utils.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/utils/CMakeFiles/utils.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/utils/CMakeFiles/utils.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/utils/CMakeFiles/utils.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/utils/CMakeFiles/utils.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/utils/CMakeFiles/utils.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/utils/CMakeFiles/utils.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/utils/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/utils/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/utils/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/utils/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/SolarSystem.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/SolarSystem.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/SolarSystem.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/SolarSystem.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/SolarSystem.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/SolarSystem.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/SolarSystem.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/SolarSystem.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/SolarSystem.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/SolarSystem.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shader/phong.frag" beforeDir="false" afterPath="$PROJECT_DIR$/src/shader/phong.frag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shader/phong.vert" beforeDir="false" afterPath="$PROJECT_DIR$/src/shader/phong.vert" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solar_viewer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/solar_viewer.cpp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,16 +66,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/solar_viewer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4350">
-              <caret line="242" column="26" selection-start-line="242" selection-start-column="26" selection-end-line="242" selection-end-column="26" />
+            <state relative-caret-position="183">
+              <caret line="635" column="49" selection-start-line="635" selection-end-line="636" />
             </state>
           </provider>
         </entry>
@@ -26,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/solar_viewer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="106" column="13" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="13" />
+            <state relative-caret-position="145">
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
             </state>
           </provider>
         </entry>
@@ -35,26 +91,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/planet.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="527">
               <caret line="54" column="23" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-690">
-              <caret line="23" column="113" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/shader/phong.vert">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="167">
+              <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -62,13 +109,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/shader/phong.frag">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28" />
+            <state relative-caret-position="437">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/shader/color.frag">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -81,6 +143,9 @@
       <find>&amp;earth</find>
       <find>pos</find>
       <find>ship</find>
+      <find>draw_sc</find>
+      <find>color_shader</find>
+      <find>cout</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,6 +155,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/shader/phong.frag" />
         <option value="$PROJECT_DIR$/src/solar_viewer.cpp" />
         <option value="$PROJECT_DIR$/src/shader/phong.vert" />
       </list>
@@ -114,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -137,7 +204,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,19 +238,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16121309" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16839585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -192,60 +253,98 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16839585" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/planet.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/shader/color.frag">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690">
-          <caret line="23" column="113" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/planet.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="54" column="23" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/solar_viewer.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="106" column="13" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="13" />
+        <state relative-caret-position="145">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/planet.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="54" column="23" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shader/phong.frag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/solar_viewer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4350">
-          <caret line="242" column="26" selection-start-line="242" selection-start-column="26" selection-end-line="242" selection-end-column="26" />
+        <state relative-caret-position="183">
+          <caret line="635" column="49" selection-start-line="635" selection-end-line="636" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shader/color.frag">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shader/phong.frag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/shader/phong.vert">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="167">
+          <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
         </state>
       </provider>
     </entry>

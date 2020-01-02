@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar"
+CMAKE_SOURCE_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build"
+CMAKE_BINARY_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/lib/lodePNG/CMakeFiles/progress.marks"
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/lodePNG/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles" 0
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/lib/lodePNG/CMakeFiles/progress.marks"
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/lodePNG/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/lodePNG/clean
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/lodePNG/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/lodePNG/preinstall
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/lodePNG/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/lodePNG/preinstall
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/lodePNG/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/lodePNG/CMakeFiles/lodePNG.dir/rule:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/lodePNG/CMakeFiles/lodePNG.dir/rule
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/lodePNG/CMakeFiles/lodePNG.dir/rule
 .PHONY : lib/lodePNG/CMakeFiles/lodePNG.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ lodePNG: lib/lodePNG/CMakeFiles/lodePNG.dir/rule
 
 # fast build rule for target.
 lodePNG/fast:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build" && $(MAKE) -f lib/lodePNG/CMakeFiles/lodePNG.dir/build.make lib/lodePNG/CMakeFiles/lodePNG.dir/build
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f lib/lodePNG/CMakeFiles/lodePNG.dir/build.make lib/lodePNG/CMakeFiles/lodePNG.dir/build
 .PHONY : lodePNG/fast
 
 lodepng.o: lodepng.cpp.o
@@ -131,7 +131,7 @@ lodepng.o: lodepng.cpp.o
 
 # target to build an object file
 lodepng.cpp.o:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build" && $(MAKE) -f lib/lodePNG/CMakeFiles/lodePNG.dir/build.make lib/lodePNG/CMakeFiles/lodePNG.dir/lodepng.cpp.o
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f lib/lodePNG/CMakeFiles/lodePNG.dir/build.make lib/lodePNG/CMakeFiles/lodePNG.dir/lodepng.cpp.o
 .PHONY : lodepng.cpp.o
 
 lodepng.i: lodepng.cpp.i
@@ -140,7 +140,7 @@ lodepng.i: lodepng.cpp.i
 
 # target to preprocess a source file
 lodepng.cpp.i:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build" && $(MAKE) -f lib/lodePNG/CMakeFiles/lodePNG.dir/build.make lib/lodePNG/CMakeFiles/lodePNG.dir/lodepng.cpp.i
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f lib/lodePNG/CMakeFiles/lodePNG.dir/build.make lib/lodePNG/CMakeFiles/lodePNG.dir/lodepng.cpp.i
 .PHONY : lodepng.cpp.i
 
 lodepng.s: lodepng.cpp.s
@@ -149,7 +149,7 @@ lodepng.s: lodepng.cpp.s
 
 # target to generate assembly for a file
 lodepng.cpp.s:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build" && $(MAKE) -f lib/lodePNG/CMakeFiles/lodePNG.dir/build.make lib/lodePNG/CMakeFiles/lodePNG.dir/lodepng.cpp.s
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f lib/lodePNG/CMakeFiles/lodePNG.dir/build.make lib/lodePNG/CMakeFiles/lodePNG.dir/lodepng.cpp.s
 .PHONY : lodepng.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

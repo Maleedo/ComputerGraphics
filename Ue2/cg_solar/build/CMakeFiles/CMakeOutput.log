@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9a19a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9a19a.dir/build.make CMakeFiles/cmTC_9a19a.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_9a19a.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_9a19a.dir/testCCompiler.c.o   -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp/testCCompiler.c"
-Linking C executable cmTC_9a19a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a19a.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9a19a.dir/testCCompiler.c.o  -o cmTC_9a19a 
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTC_a00ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a00ac.dir/build.make CMakeFiles/cmTC_a00ac.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_a00ac.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a00ac.dir/testCCompiler.c.o   -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_a00ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a00ac.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a00ac.dir/testCCompiler.c.o  -o cmTC_a00ac 
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_59d19/fast"
-/usr/bin/make -f CMakeFiles/cmTC_59d19.dir/build.make CMakeFiles/cmTC_59d19.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_59d19.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_59d19.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_59d19
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59d19.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_59d19.dir/CMakeCCompilerABI.c.o  -o cmTC_59d19 
+Run Build Command:"/usr/bin/make" "cmTC_2dc4e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2dc4e.dir/build.make CMakeFiles/cmTC_2dc4e.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_2dc4e.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2dc4e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2dc4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dc4e.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_2dc4e.dir/CMakeCCompilerABI.c.o  -o cmTC_2dc4e 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_59d19' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccq7YVMa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_59d19 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_59d19.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_59d19' '-mtune=generic' '-march=x86-64'
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2dc4e' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLQmWTC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2dc4e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2dc4e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2dc4e' '-mtune=generic' '-march=x86-64'
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_59d19/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_59d19.dir/build.make CMakeFiles/cmTC_59d19.dir/build]
-  ignore line: [make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten]
-  ignore line: [Building C object CMakeFiles/cmTC_59d19.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_59d19.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_59d19]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59d19.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_59d19.dir/CMakeCCompilerABI.c.o  -o cmTC_59d19 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2dc4e/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2dc4e.dir/build.make CMakeFiles/cmTC_2dc4e.dir/build]
+  ignore line: [make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten]
+  ignore line: [Building C object CMakeFiles/cmTC_2dc4e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_2dc4e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_2dc4e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dc4e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_2dc4e.dir/CMakeCCompilerABI.c.o  -o cmTC_2dc4e ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_59d19' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccq7YVMa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_59d19 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_59d19.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2dc4e' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLQmWTC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2dc4e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2dc4e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccq7YVMa.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccLQmWTC.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -116,7 +116,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_59d19] ==> ignore
+    arg [cmTC_2dc4e] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -128,7 +128,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_59d19.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_2dc4e.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -158,17 +158,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fa6f9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fa6f9.dir/build.make CMakeFiles/cmTC_fa6f9.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_fa6f9.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_fa6f9.dir/feature_tests.c.o   -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_fa6f9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa6f9.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fa6f9.dir/feature_tests.c.o  -o cmTC_fa6f9 
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTC_93d58/fast"
+/usr/bin/make -f CMakeFiles/cmTC_93d58.dir/build.make CMakeFiles/cmTC_93d58.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_93d58.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_93d58.dir/feature_tests.c.o   -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_93d58
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93d58.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_93d58.dir/feature_tests.c.o  -o cmTC_93d58 
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -178,17 +178,17 @@ make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bef88/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bef88.dir/build.make CMakeFiles/cmTC_bef88.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_bef88.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_bef88.dir/feature_tests.c.o   -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_bef88
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bef88.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bef88.dir/feature_tests.c.o  -o cmTC_bef88 
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTC_de2e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de2e1.dir/build.make CMakeFiles/cmTC_de2e1.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_de2e1.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_de2e1.dir/feature_tests.c.o   -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_de2e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de2e1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_de2e1.dir/feature_tests.c.o  -o cmTC_de2e1 
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -198,17 +198,17 @@ make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_15bb4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_15bb4.dir/build.make CMakeFiles/cmTC_15bb4.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_15bb4.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_15bb4.dir/feature_tests.c.o   -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_15bb4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15bb4.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_15bb4.dir/feature_tests.c.o  -o cmTC_15bb4 
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTC_bd835/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd835.dir/build.make CMakeFiles/cmTC_bd835.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_bd835.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_bd835.dir/feature_tests.c.o   -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_bd835
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd835.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bd835.dir/feature_tests.c.o  -o cmTC_bd835 
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -216,30 +216,30 @@ make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_354a0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_354a0.dir/build.make CMakeFiles/cmTC_354a0.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building CXX object CMakeFiles/cmTC_354a0.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_354a0.dir/testCXXCompiler.cxx.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
-Linking CXX executable cmTC_354a0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_354a0.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_354a0.dir/testCXXCompiler.cxx.o  -o cmTC_354a0 
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTC_529b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_529b0.dir/build.make CMakeFiles/cmTC_529b0.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_529b0.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_529b0.dir/testCXXCompiler.cxx.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTC_529b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_529b0.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_529b0.dir/testCXXCompiler.cxx.o  -o cmTC_529b0 
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_49700/fast"
-/usr/bin/make -f CMakeFiles/cmTC_49700.dir/build.make CMakeFiles/cmTC_49700.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building CXX object CMakeFiles/cmTC_49700.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_49700.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_49700
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49700.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_49700.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_49700 
+Run Build Command:"/usr/bin/make" "cmTC_96b5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_96b5b.dir/build.make CMakeFiles/cmTC_96b5b.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_96b5b.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_96b5b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_96b5b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96b5b.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_96b5b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_96b5b 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -251,24 +251,24 @@ Thread model: posix
 gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_49700' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4CRlp0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_49700 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_49700.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_49700' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_96b5b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cchJPsat.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_96b5b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_96b5b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_96b5b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_49700/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_49700.dir/build.make CMakeFiles/cmTC_49700.dir/build]
-  ignore line: [make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten]
-  ignore line: [Building CXX object CMakeFiles/cmTC_49700.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_49700.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_49700]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49700.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_49700.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_49700 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_96b5b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_96b5b.dir/build.make CMakeFiles/cmTC_96b5b.dir/build]
+  ignore line: [make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten]
+  ignore line: [Building CXX object CMakeFiles/cmTC_96b5b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_96b5b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_96b5b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96b5b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_96b5b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_96b5b ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -280,13 +280,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_49700' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4CRlp0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_49700 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_49700.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_96b5b' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cchJPsat.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_96b5b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_96b5b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc4CRlp0.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cchJPsat.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_49700] ==> ignore
+    arg [cmTC_96b5b] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -318,7 +318,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_49700.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_96b5b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -344,17 +344,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_87d83/fast"
-/usr/bin/make -f CMakeFiles/cmTC_87d83.dir/build.make CMakeFiles/cmTC_87d83.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building CXX object CMakeFiles/cmTC_87d83.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_87d83.dir/feature_tests.cxx.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_87d83
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87d83.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_87d83.dir/feature_tests.cxx.o  -o cmTC_87d83 
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTC_4cd8a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4cd8a.dir/build.make CMakeFiles/cmTC_4cd8a.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_4cd8a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_4cd8a.dir/feature_tests.cxx.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_4cd8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cd8a.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_4cd8a.dir/feature_tests.cxx.o  -o cmTC_4cd8a 
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -417,17 +417,17 @@ make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3072d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3072d.dir/build.make CMakeFiles/cmTC_3072d.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building CXX object CMakeFiles/cmTC_3072d.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_3072d.dir/feature_tests.cxx.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_3072d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3072d.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_3072d.dir/feature_tests.cxx.o  -o cmTC_3072d 
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTC_e417c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e417c.dir/build.make CMakeFiles/cmTC_e417c.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_e417c.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_e417c.dir/feature_tests.cxx.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_e417c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e417c.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e417c.dir/feature_tests.cxx.o  -o cmTC_e417c 
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -490,17 +490,17 @@ make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3d67f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3d67f.dir/build.make CMakeFiles/cmTC_3d67f.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building CXX object CMakeFiles/cmTC_3d67f.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_3d67f.dir/feature_tests.cxx.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_3d67f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d67f.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_3d67f.dir/feature_tests.cxx.o  -o cmTC_3d67f 
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTC_85fc8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_85fc8.dir/build.make CMakeFiles/cmTC_85fc8.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_85fc8.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_85fc8.dir/feature_tests.cxx.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_85fc8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85fc8.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_85fc8.dir/feature_tests.cxx.o  -o cmTC_85fc8 
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -563,17 +563,17 @@ make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ef625/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ef625.dir/build.make CMakeFiles/cmTC_ef625.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building CXX object CMakeFiles/cmTC_ef625.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_ef625.dir/feature_tests.cxx.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_ef625
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef625.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ef625.dir/feature_tests.cxx.o  -o cmTC_ef625 
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTC_12d46/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12d46.dir/build.make CMakeFiles/cmTC_12d46.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_12d46.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_12d46.dir/feature_tests.cxx.o -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_12d46
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12d46.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_12d46.dir/feature_tests.cxx.o  -o cmTC_12d46 
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -634,114 +634,114 @@ make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_19e6a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_19e6a.dir/build.make CMakeFiles/cmTC_19e6a.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_19e6a.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_19e6a.dir/CheckIncludeFile.c.o   -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_19e6a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19e6a.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_19e6a.dir/CheckIncludeFile.c.o  -o cmTC_19e6a 
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTC_3d36a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d36a.dir/build.make CMakeFiles/cmTC_3d36a.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_3d36a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3d36a.dir/CheckIncludeFile.c.o   -c "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_3d36a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d36a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3d36a.dir/CheckIncludeFile.c.o  -o cmTC_3d36a 
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0d155/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0d155.dir/build.make CMakeFiles/cmTC_0d155.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_0d155.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0d155.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_0d155
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d155.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0d155.dir/CheckFunctionExists.c.o  -o cmTC_0d155 -lpthread 
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTC_aabed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aabed.dir/build.make CMakeFiles/cmTC_aabed.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_aabed.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_aabed.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aabed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aabed.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_aabed.dir/CheckFunctionExists.c.o  -o cmTC_aabed -lpthread 
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3d5e7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3d5e7.dir/build.make CMakeFiles/cmTC_3d5e7.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_3d5e7.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_3d5e7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_3d5e7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d5e7.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_3d5e7.dir/CheckFunctionExists.c.o  -o cmTC_3d5e7 /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTC_fbc21/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fbc21.dir/build.make CMakeFiles/cmTC_fbc21.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_fbc21.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_fbc21.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fbc21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbc21.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_fbc21.dir/CheckFunctionExists.c.o  -o cmTC_fbc21 /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ee7c4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ee7c4.dir/build.make CMakeFiles/cmTC_ee7c4.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_ee7c4.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_ee7c4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ee7c4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee7c4.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_ee7c4.dir/CheckFunctionExists.c.o  -o cmTC_ee7c4 
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTC_f2fa8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2fa8.dir/build.make CMakeFiles/cmTC_f2fa8.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_f2fa8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_f2fa8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f2fa8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2fa8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_f2fa8.dir/CheckFunctionExists.c.o  -o cmTC_f2fa8 
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ab077/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ab077.dir/build.make CMakeFiles/cmTC_ab077.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_ab077.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_ab077.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ab077
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab077.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_ab077.dir/CheckFunctionExists.c.o  -o cmTC_ab077 
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTC_39c87/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39c87.dir/build.make CMakeFiles/cmTC_39c87.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_39c87.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_39c87.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_39c87
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39c87.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_39c87.dir/CheckFunctionExists.c.o  -o cmTC_39c87 
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3d746/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3d746.dir/build.make CMakeFiles/cmTC_3d746.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_3d746.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_3d746.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_3d746
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d746.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_3d746.dir/CheckFunctionExists.c.o  -o cmTC_3d746 
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTC_467a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_467a7.dir/build.make CMakeFiles/cmTC_467a7.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_467a7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_467a7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_467a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_467a7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_467a7.dir/CheckFunctionExists.c.o  -o cmTC_467a7 
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3b75d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3b75d.dir/build.make CMakeFiles/cmTC_3b75d.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_3b75d.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_3b75d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_3b75d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b75d.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_3b75d.dir/CheckFunctionExists.c.o  -o cmTC_3b75d 
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTC_5fbd8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5fbd8.dir/build.make CMakeFiles/cmTC_5fbd8.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_5fbd8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_5fbd8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5fbd8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fbd8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_5fbd8.dir/CheckFunctionExists.c.o  -o cmTC_5fbd8 
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b67d5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b67d5.dir/build.make CMakeFiles/cmTC_b67d5.dir/build
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
-Building C object CMakeFiles/cmTC_b67d5.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_b67d5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b67d5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b67d5.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_b67d5.dir/CheckFunctionExists.c.o  -o cmTC_b67d5 -lICE 
-make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTC_de146/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de146.dir/build.make CMakeFiles/cmTC_de146.dir/build
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_de146.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_de146.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_de146
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de146.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_de146.dir/CheckFunctionExists.c.o  -o cmTC_de146 -lICE 
+make[1]: Verzeichnis „/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 

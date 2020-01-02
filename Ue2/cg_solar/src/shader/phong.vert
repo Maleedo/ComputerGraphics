@@ -37,8 +37,12 @@ void main()
      *        - Via .xyz you can access the first three components of a vec4
      */
 
-    texcoord = v_texcoord;
+    v2f_texcoord = v_texcoord;
 
-    vec4 gl_Position = mtvgam3on3 modelview_matrix
+    gl_Position = modelview_projection_matrix * v_position;
+    v2f_normal = normal_matrix * (modelview_matrix * vec4(v_normal,0)).xyz;
+    vec4 v2f_v_position_cam = modelview_matrix * v_position;
+    v2f_light = normalize(light_position - v2f_v_position_cam).xyz;
+    v2f_view = normalize(-(modelview_matrix * v_position)).xyz;
 
 } 
