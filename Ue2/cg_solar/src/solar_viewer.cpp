@@ -499,7 +499,7 @@ void Solar_viewer::paint()
     radius = sun_.radius_;
     center = sun_.pos_;
     up     = vec4(0,1,0,0);
-    view   = mat4::look_at(vec3(eye) + vec3(0,0,dist_factor_), (vec3)look_at_->pos_, (vec3)up) * mat4::rotate_x(x_angle_) * mat4::rotate_y(y_angle_);
+    view   = mat4::look_at(look_at_->pos_ + vec3(0,0,dist_factor_), look_at_->pos_, up) * mat4::rotate_x(x_angle_) * mat4::rotate_y(y_angle_);
 
 
     yUp_ = up[1];
@@ -568,6 +568,7 @@ void Solar_viewer::update_planets_positions()
     mercury_.model_matrix_ = mat4::rotate_y(mercury_.angle_sun_) * mat4::translate(vec4(mercury_.distance_,0,0,1)) * mat4::rotate_y(mercury_.angle_self_)  * mat4::scale(mercury_.radius_);
     venus_.model_matrix_ = mat4::rotate_y(venus_.angle_sun_) * mat4::translate(vec4(venus_.distance_,0,0,1)) * mat4::rotate_y(venus_.angle_self_) *  mat4::scale(venus_.radius_);
     earth_.model_matrix_ = mat4::rotate_y(earth_.angle_sun_) * mat4::translate(vec4(earth_.distance_,0,0,1)) * mat4::rotate_y(earth_.angle_self_) * mat4::scale(earth_.radius_);
+    earth_.pos_ =  (mat4::rotate_y(earth_.angle_sun_) * mat4::translate(vec4(earth_.distance_,0,0,1)) * mat4::scale(earth_.radius_)) * earth_.pos_;
     moon_.model_matrix_ = mat4::rotate_y(earth_.angle_sun_) * mat4::translate(vec4(earth_.distance_,0,0,1)) * mat4::rotate_y(moon_.angle_sun_) * mat4::translate(vec4(moon_.distance_,0,0,1)) * mat4::rotate_y(moon_.angle_self_) * mat4::scale(moon_.radius_);
     mars_.model_matrix_ = mat4::rotate_y(mars_.angle_sun_) * mat4::translate(vec4(mars_.distance_,0,0,1)) * mat4::rotate_y(mars_.angle_self_) * mat4::scale(mars_.radius_);
     jupiter_.model_matrix_ =  mat4::rotate_y(jupiter_.angle_sun_) * mat4::translate(vec4(jupiter_.distance_,0,0,1)) * mat4::rotate_y(jupiter_.angle_self_) * mat4::scale(jupiter_.radius_);
@@ -632,7 +633,7 @@ void Solar_viewer::draw_scene(mat4& _projection, mat4& _view)
     color_shader_.set_uniform("greyscale", (int)greyscale_);
     sun_.draw();
 
-    phong_shader_.use();
+    /*phong_shader_.use();
     phong_shader_.set_uniform("light_position",light);
     phong_shader_.set_uniform("tex", 0);
     phong_shader_.set_uniform("greyscale", (int)greyscale_);
@@ -644,16 +645,20 @@ void Solar_viewer::draw_scene(mat4& _projection, mat4& _view)
     phong_shader_.set_uniform("normal_matrix",n_matrix);
 
     ship_.draw();
-
+*/
     for(Planet* planet : planets_)
     {
         m_matrix = planet->model_matrix_;
         mv_matrix  = _view * m_matrix;
         mvp_matrix = _projection * mv_matrix;
-
+/*
         phong_shader_.set_uniform("modelview_matrix",mv_matrix);
         phong_shader_.set_uniform("modelview_projection_matrix", mvp_matrix);
         phong_shader_.set_uniform("normal_matrix",n_matrix);
+        */
+        color_shader_.set_uniform("modelview_matrix",mv_matrix);
+        color_shader_.set_uniform("modelview_projection_matrix", mvp_matrix);
+        color_shader_.set_uniform("normal_matrix",n_matrix);
         planet->draw();
     }
 
