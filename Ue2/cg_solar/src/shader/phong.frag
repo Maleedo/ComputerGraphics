@@ -34,7 +34,7 @@ void main()
     *  - You do not have to implement shadows.
     *
     *  Hint: Here, functions like reflect, dot, max, min, normalize can be used in the same way as in the raytracer.
-     */
+
 
 
     // fetch color from texture
@@ -63,4 +63,6 @@ void main()
 
     // add required alpha value
     f_color = vec4(color, alpha);
+
+    */
 }

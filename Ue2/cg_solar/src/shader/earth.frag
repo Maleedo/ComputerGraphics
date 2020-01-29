@@ -42,7 +42,7 @@ void main()
     *   - There is not the one right way to get the desired results. Feel free to use some magic numbers or creative solutions.
      */
     
-/**
+/*
     // fetch color from texture
     vec3 material = texture(day_texture, v2f_texcoord.st).rgb;
     float alpha = texture(tex, v2f_texcoord.st).a;
@@ -70,5 +70,5 @@ void main()
     // add required alpha value
     f_color = vec4(color, alpha);
 
-    **/
+    */
 }

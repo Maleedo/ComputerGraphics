@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
-  "../Doxyfile.in"
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
@@ -136,7 +135,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
-  "Doxyfile"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/glew/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/glfw/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -148,7 +146,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/doc.dir/DependInfo.cmake"
   "lib/glew/CMakeFiles/glew.dir/DependInfo.cmake"
   "lib/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "lib/lodePNG/CMakeFiles/lodePNG.dir/DependInfo.cmake"

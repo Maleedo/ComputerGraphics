@@ -17,7 +17,7 @@ uniform bool greyscale;
 
 
 void main()
-{   
+{
     // fetch color from texture
     vec3 color = texture(tex, v2f_texcoord.st).rgb;
     float alpha = texture(tex, v2f_texcoord.st).a;
@@ -26,5 +26,7 @@ void main()
     if (greyscale) color = vec3(0.299*color.r+0.587*color.g+0.114*color.b);
 
     // add the required alpha value
-    f_color = vec4(color.rgb, alpha);
+
+   f_color = vec4(color.rgb, alpha);
+
 }

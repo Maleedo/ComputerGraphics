@@ -138,9 +138,9 @@ vector
 mesh.h
 ../lib/utils/mesh.h
 
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/billboard.cpp
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/billboard.cpp
 billboard.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/billboard.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/billboard.h
 iostream
 -
 cmath
@@ -150,103 +150,103 @@ cassert
 algorithm
 -
 
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/billboard.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/billboard.h
 glmath.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/glmath.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/glmath.h
 vector
 -
 texture.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/texture.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/texture.h
 mesh.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/mesh.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/mesh.h
 
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/main.cpp
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/main.cpp
 solar_viewer.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/solar_viewer.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/solar_viewer.h
 
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/planet.cpp
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/planet.cpp
 planet.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/planet.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/planet.h
 
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/planet.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/planet.h
 texture.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/texture.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/texture.h
 glmath.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/glmath.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/glmath.h
 sphere.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/sphere.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/sphere.h
 
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/saturn_rings.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/saturn_rings.h
 glmath.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/glmath.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/glmath.h
 vector
 -
 texture.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/texture.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/texture.h
 mesh.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/mesh.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/mesh.h
 
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/ship.cpp
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/ship.cpp
 ship.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/ship.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/ship.h
 fstream
 -
 string
 -
 
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/ship.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/ship.h
 glmath.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/glmath.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/glmath.h
 vector
 -
 texture.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/texture.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/texture.h
 mesh.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/mesh.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/mesh.h
 
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/solar_viewer.cpp
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/solar_viewer.cpp
 solar_viewer.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/solar_viewer.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/solar_viewer.h
 glmath.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/glmath.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/glmath.h
 stdlib.h
 -
 time.h
 -
 
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/solar_viewer.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/solar_viewer.h
 gl.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/gl.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/gl.h
 glfw_window.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/glfw_window.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/glfw_window.h
 glmath.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/glmath.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/glmath.h
 shader.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/shader.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/shader.h
 texture.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/texture.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/texture.h
 planet.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/planet.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/planet.h
 ship.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/ship.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/ship.h
 billboard.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/billboard.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/billboard.h
 saturn_rings.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/saturn_rings.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/saturn_rings.h
 
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/texture.cpp
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/texture.cpp
 texture.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/texture.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/texture.h
 iostream
 -
 assert.h
 -
 lodepng.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/lodepng.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/lodepng.h
 algorithm
 -
 
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/texture.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/texture.h
 gl.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/src/gl.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/src/gl.h
 

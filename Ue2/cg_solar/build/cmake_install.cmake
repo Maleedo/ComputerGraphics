@@ -1,4 +1,4 @@
-# Install script for directory: /homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar
+# Install script for directory: /home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/lib/glew/cmake_install.cmake")
-  include("/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/lib/glfw/cmake_install.cmake")
-  include("/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/lib/lodePNG/cmake_install.cmake")
-  include("/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/lib/utils/cmake_install.cmake")
-  include("/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/src/cmake_install.cmake")
+  include("/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/lib/glew/cmake_install.cmake")
+  include("/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/lib/glfw/cmake_install.cmake")
+  include("/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/lib/lodePNG/cmake_install.cmake")
+  include("/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/lib/utils/cmake_install.cmake")
+  include("/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/src/cmake_install.cmake")
 
 endif()
 
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

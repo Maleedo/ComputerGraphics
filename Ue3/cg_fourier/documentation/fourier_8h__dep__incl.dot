@@ -1,0 +1,12 @@
+digraph "/home/abunge/teaching/cg/cg_fourier/src/fourier2D/fourier.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node6 [label="/home/abunge/teaching\l/cg/cg_fourier/src/fourier2\lD/fourier.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="/home/abunge/teaching\l/cg/cg_fourier/src/fourier2\lD/filter.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$filter_8cpp.html"];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="/home/abunge/teaching\l/cg/cg_fourier/src/fourier2\lD/fourier.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fourier_8cpp.html"];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="/home/abunge/teaching\l/cg/cg_fourier/src/fourier2\lD/hybrid.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$hybrid_8cpp.html"];
+}

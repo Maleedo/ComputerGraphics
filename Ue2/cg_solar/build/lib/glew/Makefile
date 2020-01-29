@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar"
+CMAKE_SOURCE_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build"
+CMAKE_BINARY_DIR = "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/CMakeFiles" "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/lib/glew/CMakeFiles/progress.marks"
-	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/glew/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build/CMakeFiles" 0
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles" "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/lib/glew/CMakeFiles/progress.marks"
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/glew/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/glew/clean
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/glew/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/glew/preinstall
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/glew/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/glew/preinstall
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/glew/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/glew/CMakeFiles/glew.dir/rule:
-	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/glew/CMakeFiles/glew.dir/rule
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/glew/CMakeFiles/glew.dir/rule
 .PHONY : lib/glew/CMakeFiles/glew.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ glew: lib/glew/CMakeFiles/glew.dir/rule
 
 # fast build rule for target.
 glew/fast:
-	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f lib/glew/CMakeFiles/glew.dir/build.make lib/glew/CMakeFiles/glew.dir/build
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f lib/glew/CMakeFiles/glew.dir/build.make lib/glew/CMakeFiles/glew.dir/build
 .PHONY : glew/fast
 
 glew.o: glew.cpp.o
@@ -131,7 +131,7 @@ glew.o: glew.cpp.o
 
 # target to build an object file
 glew.cpp.o:
-	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f lib/glew/CMakeFiles/glew.dir/build.make lib/glew/CMakeFiles/glew.dir/glew.cpp.o
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f lib/glew/CMakeFiles/glew.dir/build.make lib/glew/CMakeFiles/glew.dir/glew.cpp.o
 .PHONY : glew.cpp.o
 
 glew.i: glew.cpp.i
@@ -140,7 +140,7 @@ glew.i: glew.cpp.i
 
 # target to preprocess a source file
 glew.cpp.i:
-	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f lib/glew/CMakeFiles/glew.dir/build.make lib/glew/CMakeFiles/glew.dir/glew.cpp.i
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f lib/glew/CMakeFiles/glew.dir/build.make lib/glew/CMakeFiles/glew.dir/glew.cpp.i
 .PHONY : glew.cpp.i
 
 glew.s: glew.cpp.s
@@ -149,7 +149,7 @@ glew.s: glew.cpp.s
 
 # target to generate assembly for a file
 glew.cpp.s:
-	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(MAKE) -f lib/glew/CMakeFiles/glew.dir/build.make lib/glew/CMakeFiles/glew.dir/glew.cpp.s
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(MAKE) -f lib/glew/CMakeFiles/glew.dir/build.make lib/glew/CMakeFiles/glew.dir/glew.cpp.s
 .PHONY : glew.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

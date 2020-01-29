@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/lib/glew/glew.cpp
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/glew/glew.cpp
 glew.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/lib/glew/glew.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/glew/glew.h
 wglew.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/lib/glew/wglew.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/glew/wglew.h
 glxew.h
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/lib/glew/glxew.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/glew/glxew.h
 stddef.h
 -
 dlfcn.h
@@ -32,7 +32,7 @@ dlfcn.h
 mach-o/dyld.h
 -
 
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/lib/glew/glew.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/glew/glew.h
 stddef.h
 -
 inttypes.h
@@ -48,7 +48,7 @@ OpenGL/glu.h
 GL/glu.h
 -
 
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/lib/glew/glxew.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/glew/glxew.h
 X11/Xlib.h
 -
 X11/Xutil.h
@@ -58,7 +58,7 @@ X11/Xmd.h
 GL/glew.h
 -
 
-/homes/pgernhardt/Documents/Uni/Wi2019/Computer Graphics/ComputerGraphics/Ue2/cg_solar/lib/glew/wglew.h
+/home/pascal/Dokumente/Uni/WiSe19/Computer Graphics/cg_raytracer/Ue2/cg_solar/lib/glew/wglew.h
 windows.h
 -
 
