@@ -1,76 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb957ff5-d4a4-4568-9b82-e734928fbd53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeDoxyfile.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeDoxygenDefaults.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/3.10.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/doc.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/doc.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/doc.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/CMakeFiles/doc.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/Doxyfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/SolarSystem" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/SolarSystem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glew/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glew/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glew/CMakeFiles/glew.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glew/CMakeFiles/glew.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glew/CMakeFiles/glew.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glew/CMakeFiles/glew.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glew/CMakeFiles/glew.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glew/CMakeFiles/glew.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glew/CMakeFiles/glew.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glew/CMakeFiles/glew.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glew/CMakeFiles/glew.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glew/CMakeFiles/glew.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glew/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glew/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glew/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glew/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/src/CMakeFiles/glfw.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/src/CMakeFiles/glfw.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/src/CMakeFiles/glfw.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/src/CMakeFiles/glfw.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/src/CMakeFiles/glfw.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/src/CMakeFiles/glfw.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/src/CMakeFiles/glfw.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/src/CMakeFiles/glfw.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/src/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/src/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/glfw/src/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/lodePNG/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/lodePNG/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/lodePNG/CMakeFiles/lodePNG.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/lodePNG/CMakeFiles/lodePNG.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/lodePNG/CMakeFiles/lodePNG.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/lodePNG/CMakeFiles/lodePNG.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/lodePNG/CMakeFiles/lodePNG.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/lodePNG/CMakeFiles/lodePNG.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/lodePNG/CMakeFiles/lodePNG.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/lodePNG/CMakeFiles/lodePNG.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/lodePNG/CMakeFiles/lodePNG.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/lodePNG/CMakeFiles/lodePNG.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/lodePNG/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/lodePNG/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/lodePNG/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/lodePNG/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/utils/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/utils/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/utils/CMakeFiles/utils.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/utils/CMakeFiles/utils.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/utils/CMakeFiles/utils.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/utils/CMakeFiles/utils.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/utils/CMakeFiles/utils.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/utils/CMakeFiles/utils.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/utils/CMakeFiles/utils.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/utils/CMakeFiles/utils.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/utils/CMakeFiles/utils.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/utils/CMakeFiles/utils.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/utils/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/utils/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/utils/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/lib/utils/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/src/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/src/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/src/CMakeFiles/SolarSystem.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/src/CMakeFiles/SolarSystem.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/src/CMakeFiles/SolarSystem.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/src/CMakeFiles/SolarSystem.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/src/CMakeFiles/SolarSystem.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/src/CMakeFiles/SolarSystem.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/src/CMakeFiles/SolarSystem.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/src/CMakeFiles/SolarSystem.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/src/CMakeFiles/SolarSystem.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/src/CMakeFiles/SolarSystem.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/src/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/src/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/build/src/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/src/shader/color.frag" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/src/shader/color.frag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/src/shader/earth.frag" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/src/shader/earth.frag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/src/shader/earth.vert" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/src/shader/earth.vert" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/src/shader/phong.frag" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/src/shader/phong.frag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ue2/cg_solar/src/solar_viewer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue2/cg_solar/src/solar_viewer.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="eb957ff5-d4a4-4568-9b82-e734928fbd53" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
